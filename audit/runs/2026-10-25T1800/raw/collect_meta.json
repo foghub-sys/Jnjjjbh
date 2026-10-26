@@ -1,0 +1,106 @@
+{
+  "node": "wss://vivi.kaspa.blue/kaspa/mainnet/wrpc/json",
+  "rest": "https://api.kaspa.org",
+  "start": "2026-10-25T18:00:00.000Z",
+  "end": "2026-10-25T19:00:00.000Z",
+  "marginSec": 600,
+  "startedAt": "2026-10-26T09:52:37.172Z",
+  "serverInfo": {
+    "hasUtxoIndex": true,
+    "isSynced": true,
+    "networkId": "mainnet",
+    "rpcApiRevision": 0,
+    "rpcApiVersion": 1,
+    "serverVersion": "2.1.0",
+    "virtualDaaScore": 575880847
+  },
+  "blockDagInfoAtStart": {
+    "blockCount": 1432367,
+    "difficulty": 17827651035787102,
+    "headerCount": 1432367,
+    "network": "mainnet",
+    "pastMedianTime": 1793008216424,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "d6accff17faca34f225071c30d49cdbccd3755a449afba3a1752b4bd986e677e",
+    "tipHashes": [
+      "632bf29e6919028bb3a4f31058fea8931f9a937da27ecb03c5f32f6570b70c17",
+      "d6accff17faca34f225071c30d49cdbccd3755a449afba3a1752b4bd986e677e",
+      "16375e7b2b6d39e9879eb3b35704df3bb85621182b06b6e9f3fa8b7ea9246664"
+    ],
+    "virtualDaaScore": 575880849,
+    "virtualParentHashes": [
+      "16375e7b2b6d39e9879eb3b35704df3bb85621182b06b6e9f3fa8b7ea9246664",
+      "632bf29e6919028bb3a4f31058fea8931f9a937da27ecb03c5f32f6570b70c17",
+      "d6accff17faca34f225071c30d49cdbccd3755a449afba3a1752b4bd986e677e"
+    ]
+  },
+  "locate": {
+    "lowHash": "6f98396cf0391d74c51c695c9338af24a31b7a0fbf89bd0d4f72117c0350aef1",
+    "probes": [
+      {
+        "blueScore": 573257872,
+        "hash": "d5003c193cc5ab2ed8c58ee09b6487d92f8b04570782011143e6faa63464db60",
+        "timestamp": 1792950954490
+      },
+      {
+        "blueScore": 573254062,
+        "hash": "6f98396cf0391d74c51c695c9338af24a31b7a0fbf89bd0d4f72117c0350aef1",
+        "timestamp": 1792950571770
+      }
+    ]
+  },
+  "pages": 195,
+  "dagBlocksSeen": 48019,
+  "duplicatesSkipped": 194,
+  "dagTimestampRange": [
+    "2026-10-25T17:49:30.151Z",
+    "2026-10-25T19:10:08.422Z"
+  ],
+  "inWindowFromGetBlocks": 35790,
+  "rewardInfoFailed": [],
+  "blockDagInfoAtEnd": {
+    "blockCount": 1434275,
+    "difficulty": 17795940951868184,
+    "headerCount": 1434275,
+    "network": "mainnet",
+    "pastMedianTime": 1793008412871,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "53d6e5685dd31b4e67b4395551c29cdd9a60d98e12c8718e85cd33219d66c4cf",
+    "tipHashes": [
+      "53d6e5685dd31b4e67b4395551c29cdd9a60d98e12c8718e85cd33219d66c4cf",
+      "f8848ae19b12b8a0a169dd8f66990c6d27966b08f1f4919f09c4cf29c185021a",
+      "5b78757311c41669dd6f0ca1465f461e92cd146e16c5aa710a8071cfed7da3b1",
+      "cad0b982e3e0eb4a77b77c7a107f0970f17deb176352ba92d5d82f7619d98601",
+      "5cd9d6ed9eef4fba8755ec58ef3b7d75787363748481afe0ee04ae715fd445eb"
+    ],
+    "virtualDaaScore": 575882757,
+    "virtualParentHashes": [
+      "f8848ae19b12b8a0a169dd8f66990c6d27966b08f1f4919f09c4cf29c185021a",
+      "5b78757311c41669dd6f0ca1465f461e92cd146e16c5aa710a8071cfed7da3b1",
+      "53d6e5685dd31b4e67b4395551c29cdd9a60d98e12c8718e85cd33219d66c4cf",
+      "5cd9d6ed9eef4fba8755ec58ef3b7d75787363748481afe0ee04ae715fd445eb",
+      "cad0b982e3e0eb4a77b77c7a107f0970f17deb176352ba92d5d82f7619d98601"
+    ]
+  },
+  "finishedAt": "2026-10-26T09:55:47.284Z",
+  "errors": [
+    {
+      "label": "locate",
+      "attempt": 1,
+      "error": "https://api.kaspa.org/blocks-from-bluescore?blueScore=573257872&includeTransactions=false -> 429",
+      "at": "2026-10-26T09:52:37.900Z"
+    },
+    {
+      "label": "locate",
+      "attempt": 2,
+      "error": "https://api.kaspa.org/blocks-from-bluescore?blueScore=573257872&includeTransactions=false -> 429",
+      "at": "2026-10-26T09:52:39.993Z"
+    },
+    {
+      "label": "locate",
+      "attempt": 3,
+      "error": "https://api.kaspa.org/blocks-from-bluescore?blueScore=573257872&includeTransactions=false -> 429",
+      "at": "2026-10-26T09:52:44.087Z"
+    }
+  ]
+}

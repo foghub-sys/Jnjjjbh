@@ -1,0 +1,114 @@
+{
+  "node": "wss://sara.kaspa.red/kaspa/mainnet/wrpc/json",
+  "rest": "https://api.kaspa.org",
+  "start": "2026-10-25T15:00:00.000Z",
+  "end": "2026-10-25T16:00:00.000Z",
+  "marginSec": 600,
+  "startedAt": "2026-10-26T09:21:54.336Z",
+  "serverInfo": {
+    "hasUtxoIndex": true,
+    "isSynced": true,
+    "networkId": "mainnet",
+    "rpcApiRevision": 0,
+    "rpcApiVersion": 1,
+    "serverVersion": "2.1.0",
+    "virtualDaaScore": 575862497
+  },
+  "blockDagInfoAtStart": {
+    "blockCount": 1414016,
+    "difficulty": 17784145707468028,
+    "headerCount": 1414016,
+    "network": "mainnet",
+    "pastMedianTime": 1793006369794,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "bcee71eeb2fdea4efc3d370f060d812f0712b1951a11107df08b7ecf122e3adb",
+    "tipHashes": [
+      "e3866d3a3bd143fbbd2d027374eb016dd327f222ef40ba64435763a67ce2f9ac",
+      "7dd21f99d674570e92cf5dc826b259dab730dfdf963b11cd4a2b4806b3f4fb99",
+      "abd22fb6ba043d98fe8118cbe6d3b19cd007da217ab733615172c62bd761ce12",
+      "32a74598939210f3a30977fe8cfb63838f40c3dedb8c8313ea8caa33eeed8972",
+      "66ee15e411ab53a45c4b49b39464afddfb96481fa6048713300a07fa89ca7c5d",
+      "bcee71eeb2fdea4efc3d370f060d812f0712b1951a11107df08b7ecf122e3adb",
+      "21b33a2e20f25529aac47ef9e051109e39a31efbe7947b7a7707e77780d8c08d"
+    ],
+    "virtualDaaScore": 575862498,
+    "virtualParentHashes": [
+      "bcee71eeb2fdea4efc3d370f060d812f0712b1951a11107df08b7ecf122e3adb",
+      "66ee15e411ab53a45c4b49b39464afddfb96481fa6048713300a07fa89ca7c5d",
+      "32a74598939210f3a30977fe8cfb63838f40c3dedb8c8313ea8caa33eeed8972",
+      "e3866d3a3bd143fbbd2d027374eb016dd327f222ef40ba64435763a67ce2f9ac",
+      "7dd21f99d674570e92cf5dc826b259dab730dfdf963b11cd4a2b4806b3f4fb99",
+      "abd22fb6ba043d98fe8118cbe6d3b19cd007da217ab733615172c62bd761ce12",
+      "21b33a2e20f25529aac47ef9e051109e39a31efbe7947b7a7707e77780d8c08d"
+    ]
+  },
+  "locate": {
+    "lowHash": "d52c0259bcf4a4fc03f9f60f5c5d8607c8eddaaf3c531b9cd74d5ef8c309055d",
+    "probes": [
+      {
+        "blueScore": 573150858,
+        "hash": "2ec297e97ee97d6f8f050a9f10e84d5b4265fcac6da688145fd23e72762bf0ac",
+        "timestamp": 1792940264228
+      },
+      {
+        "blueScore": 573145968,
+        "hash": "d52c0259bcf4a4fc03f9f60f5c5d8607c8eddaaf3c531b9cd74d5ef8c309055d",
+        "timestamp": 1792939767554
+      }
+    ]
+  },
+  "pages": 197,
+  "dagBlocksSeen": 48477,
+  "duplicatesSkipped": 196,
+  "dagTimestampRange": [
+    "2026-10-25T14:49:23.255Z",
+    "2026-10-25T16:10:19.604Z"
+  ],
+  "inWindowFromGetBlocks": 36010,
+  "rewardInfoFailed": [],
+  "blockDagInfoAtEnd": {
+    "blockCount": 1420251,
+    "difficulty": 17863257513824396,
+    "headerCount": 1420251,
+    "network": "mainnet",
+    "pastMedianTime": 1793006995413,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "e60d3885cb281ba36c2f929366949e206b6678d38ac77e68f48ef7dcc4ef6ac4",
+    "tipHashes": [
+      "8539adc7835e30cff80b2adf7e1c7c21d02ab11cd05a7287c2d474597c4c0329",
+      "dd758cd1baa3ec949a0e5bd69ff917078bfe8fae0680f603c24cbe7b112ce229",
+      "658b6395c3a37c23b1e6e93cf010179b963b61c5b4a34c4e0bbeb8b1f3b6b3eb",
+      "a8d3ddd1d1236648c00dfdb57b04d8ccf431d66b49051a27520bbfb874614ee6",
+      "1d7002aa481647ac585b35820594c8ac25077536a30efd7b957c512b495bc5c5",
+      "47403da59212407842d5e1d9fcbc005a741ba1ffaa44f0a5e0525dc7b9e4e9f2",
+      "afdbb749bc28ff57c4c559bc952369bcddf0728cb596682660a089afd3d57276",
+      "045b53a11cd86e19d6c0bd79dd8d9ae8aee77b97242fd643283d0ac29d4a94d7",
+      "6d8aea834148bc9371cb5f8212e57a4d0b803baf7ece2d1d2a192ed80a58f583",
+      "fcfb222bccb49b02a5d902efe0b9b6a7efa23e83e2321e086cb4b19009979d25",
+      "0c7cd65ab17b8cbbe64b0d076aeb6ab440cfac74b88b033a2c4270e7c07e810f",
+      "5adbcc7d31fb6fa3b912abe2a341fff13483e0a398bae903f04df253d2ee461d",
+      "64794ccd3783b161e8d6c4b05a87f2796b8d416f72ae2023b3f5cc30e34c6177",
+      "e60d3885cb281ba36c2f929366949e206b6678d38ac77e68f48ef7dcc4ef6ac4",
+      "c7867d5de3b5148e6a27f92bc3a9606d726251cb86e860753d3f31df5f7d7de9"
+    ],
+    "virtualDaaScore": 575868733,
+    "virtualParentHashes": [
+      "5adbcc7d31fb6fa3b912abe2a341fff13483e0a398bae903f04df253d2ee461d",
+      "afdbb749bc28ff57c4c559bc952369bcddf0728cb596682660a089afd3d57276",
+      "8539adc7835e30cff80b2adf7e1c7c21d02ab11cd05a7287c2d474597c4c0329",
+      "dd758cd1baa3ec949a0e5bd69ff917078bfe8fae0680f603c24cbe7b112ce229",
+      "e60d3885cb281ba36c2f929366949e206b6678d38ac77e68f48ef7dcc4ef6ac4",
+      "a8d3ddd1d1236648c00dfdb57b04d8ccf431d66b49051a27520bbfb874614ee6",
+      "47403da59212407842d5e1d9fcbc005a741ba1ffaa44f0a5e0525dc7b9e4e9f2",
+      "64794ccd3783b161e8d6c4b05a87f2796b8d416f72ae2023b3f5cc30e34c6177",
+      "045b53a11cd86e19d6c0bd79dd8d9ae8aee77b97242fd643283d0ac29d4a94d7",
+      "1d7002aa481647ac585b35820594c8ac25077536a30efd7b957c512b495bc5c5",
+      "6d8aea834148bc9371cb5f8212e57a4d0b803baf7ece2d1d2a192ed80a58f583",
+      "658b6395c3a37c23b1e6e93cf010179b963b61c5b4a34c4e0bbeb8b1f3b6b3eb",
+      "fcfb222bccb49b02a5d902efe0b9b6a7efa23e83e2321e086cb4b19009979d25",
+      "0c7cd65ab17b8cbbe64b0d076aeb6ab440cfac74b88b033a2c4270e7c07e810f"
+    ]
+  },
+  "finishedAt": "2026-10-26T09:32:14.450Z",
+  "errors": []
+}

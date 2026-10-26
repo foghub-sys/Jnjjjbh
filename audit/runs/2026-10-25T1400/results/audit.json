@@ -1,0 +1,1714 @@
+{
+  "claim": {
+    "text": "HumPool and F2Pool jointly produce 53.9% of Kaspa blocks",
+    "share": 0.539,
+    "address_checked": "kaspa:qrk9decfnl4rayeegp6gd3tc6605zavclkpud5jp78axat5namppwt050d57j"
+  },
+  "window": {
+    "start": "2026-10-25T14:00:00.000Z",
+    "end": "2026-10-25T15:00:00.000Z",
+    "rule": "header.timestamp in [start, end) (miner-set timestamp, ms)"
+  },
+  "sources": {
+    "primary_node": "wss://dina.kaspa.green/kaspa/mainnet/wrpc/json",
+    "primary_serverInfo": {
+      "hasUtxoIndex": true,
+      "isSynced": true,
+      "networkId": "mainnet",
+      "rpcApiRevision": 0,
+      "rpcApiVersion": 1,
+      "serverVersion": "2.1.0",
+      "virtualDaaScore": 575862492
+    },
+    "rpc_methods": [
+      "getBlocks(lowHash, includeBlocks=true, includeTransactions=true)",
+      "getBlockRewardInfo(hash)",
+      "getBlockDagInfo",
+      "getServerInfo"
+    ],
+    "rest_indexer": "https://api.kaspa.org (used only to locate the paging start block, for explorer address labels, and for sample cross-checks)",
+    "secondary_node": "wss://lena.kaspa.blue/kaspa/mainnet/wrpc/json",
+    "secondary_serverInfo": {
+      "hasUtxoIndex": true,
+      "isSynced": true,
+      "networkId": "mainnet",
+      "rpcApiRevision": 0,
+      "rpcApiVersion": 1,
+      "serverVersion": "2.1.0",
+      "virtualDaaScore": 575863617
+    },
+    "explorer_labels": "GET /addresses/names (third-party labels, secondary evidence only)",
+    "collection_started": "2026-10-26T09:21:54.320Z",
+    "collection_finished": "2026-10-26T09:23:40.005Z",
+    "blockDagInfoAtStart": {
+      "blockCount": 1414010,
+      "difficulty": 17784145707468028,
+      "headerCount": 1414010,
+      "network": "mainnet",
+      "pastMedianTime": 1793006369794,
+      "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+      "sink": "abd22fb6ba043d98fe8118cbe6d3b19cd007da217ab733615172c62bd761ce12",
+      "virtualDaaScore": 575862492
+    },
+    "blockDagInfoAtEnd": {
+      "blockCount": 1415063,
+      "difficulty": 17772633633922868,
+      "headerCount": 1415063,
+      "network": "mainnet",
+      "pastMedianTime": 1793006483343,
+      "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+      "sink": "79c79d396054c312a6aeb68a5a3d8051613e63efecd25e41b8e70e4889f55191",
+      "virtualDaaScore": 575863545
+    }
+  },
+  "enumeration": {
+    "paging_start_lowHash": "597d37daf7f51cd2ca14315ce494ca892079dd85c48125801426608435221f26",
+    "paging_start_probe": [
+      {
+        "blueScore": 573115220,
+        "hash": "fcec243d7b36c91932bc9db9a7f1d9a6bc3eab5efb1e0403c6bb9458bec8e36b",
+        "timestamp": 1792936690077
+      },
+      {
+        "blueScore": 573110069,
+        "hash": "597d37daf7f51cd2ca14315ce494ca892079dd85c48125801426608435221f26",
+        "timestamp": 1792936176078
+      }
+    ],
+    "margin_seconds": 600,
+    "pages": 196,
+    "pages_contiguous": true,
+    "dag_blocks_enumerated_incl_margin": 48250,
+    "dag_timestamp_range": [
+      "2026-10-25T13:49:28.823Z",
+      "2026-10-25T15:10:00.917Z"
+    ],
+    "duplicates_removed_dag": 195,
+    "duplicates_removed_reward_info": 0,
+    "secondary_enumeration": {
+      "node": "wss://lena.kaspa.blue/kaspa/mainnet/wrpc/json",
+      "serverInfo": {
+        "hasUtxoIndex": true,
+        "isSynced": true,
+        "networkId": "mainnet",
+        "rpcApiRevision": 0,
+        "rpcApiVersion": 1,
+        "serverVersion": "2.1.0",
+        "virtualDaaScore": 575863617
+      },
+      "pages": 196,
+      "reachedUntil": true,
+      "secondary_count": 48250,
+      "primary_count": 48250,
+      "in_primary_not_secondary": 0,
+      "in_secondary_not_primary": 0,
+      "window_blocks_missing_from_secondary": 0,
+      "examples_secondary_only": []
+    }
+  },
+  "window_completeness": {
+    "blocks_in_window": 35923,
+    "first_timestamp": "2026-10-25T14:00:00.040Z",
+    "last_timestamp": "2026-10-25T14:59:59.974Z",
+    "blocks_per_second": 9.979,
+    "blocks_per_minute_min_max": [
+      543,
+      660
+    ],
+    "minutes_with_blocks": 60,
+    "largest_timestamp_gaps_ms": [
+      {
+        "gap_ms": 1500,
+        "after": "2026-10-25T14:06:12.233Z"
+      },
+      {
+        "gap_ms": 1449,
+        "after": "2026-10-25T14:12:09.011Z"
+      },
+      {
+        "gap_ms": 1137,
+        "after": "2026-10-25T14:33:04.634Z"
+      },
+      {
+        "gap_ms": 1124,
+        "after": "2026-10-25T14:56:14.475Z"
+      },
+      {
+        "gap_ms": 1123,
+        "after": "2026-10-25T14:40:02.453Z"
+      }
+    ],
+    "boundary_counts": {
+      "[start-1s,start)": 22,
+      "[start,start+1s)": 2,
+      "[end-1s,end)": 15,
+      "[end,end+1s)": 8
+    },
+    "window_daaScore_range": [
+      575166353,
+      575202276
+    ],
+    "blocks_outside_window_by_timestamp_but_inside_window_daa_range": 0,
+    "note": "Blocks never merged by the selected chain (outside the past of the sink at query time) are not returned by getBlocks; the secondary-node enumeration is the cross-check."
+  },
+  "colors": {
+    "BLUE": 35893,
+    "RED": 30,
+    "UNKNOWN": 0,
+    "rule": "BLUE/RED only when GetBlockRewardInfo returns it; anything else kept as UNKNOWN"
+  },
+  "reward_info": {
+    "requested": 35923,
+    "failed_after_retries": 0,
+    "transient_errors_retried": 0
+  },
+  "errors": {},
+  "payout_cross_check_all_blue_blocks": {
+    "match": 35893
+  },
+  "attribution": {
+    "rule": "miner = the block's own coinbase payload (script public key + extra data). Pool from payload tag; else address seen with a pool tag in >=90% of its window blocks; else explorer label; else SOLO if the untagged, unlabelled address produced <1% of window blocks (heuristic); else UNKNOWN (also when no standard miner address can be derived). Coinbase payout recipients are never used.",
+    "basis_counts": {
+      "payload_tag": 31332,
+      "untagged_unlabelled_address_ge_1pct": 3047,
+      "untagged_unlabelled_address_lt_1pct(heuristic)": 1493,
+      "explorer_address_label": 51
+    },
+    "pool_tag_regexes": {
+      "HumPool": "humpool",
+      "F2Pool": "f2pool",
+      "ViaBTC": "viabtc",
+      "K1Pool": "k1pool",
+      "WhalePool": "whalepool|(^|/)wpool",
+      "Kaspa-pool": "kaspa-pool\\.org",
+      "EMCD": "emcd",
+      "2Miners": "2miners",
+      "AntPool": "antpool",
+      "HeroMiners": "herominers",
+      "Kryptex": "kryptex",
+      "Binance Pool": "(^|/)bpool",
+      "WoolyPooly": "woolypooly",
+      "CyberPool": "cyberpool",
+      "RabidPool": "rabidpool",
+      "BaikalMine": "baikalmine",
+      "NiceHash": "nicehash",
+      "Kat Pool": "katpool",
+      "SoloPool.org": "solopool",
+      "Zergpool": "zergpool",
+      "DxPool": "dxpool",
+      "GoGPool": "gogpool"
+    }
+  },
+  "results": {
+    "blue_blocks": 35893,
+    "HumPool_plus_F2Pool": {
+      "blue": 20130,
+      "share": 0.5608335887220349,
+      "wilson95": [
+        0.5556931256923787,
+        0.5659610316799246
+      ],
+      "minute_bootstrap95": [
+        0.5553362470040886,
+        0.5662457912457912
+      ],
+      "claim_0539_inside_wilson95": false,
+      "difference_pp": 2.183
+    },
+    "top_addresses_by_blue_blocks": [
+      {
+        "address": "kaspa:qrk9decfnl4rayeegp6gd3tc6605zavclkpud5jp78axat5namppwt050d57j",
+        "blue": 11149,
+        "share": 0.3106176691834062,
+        "label": "HumPool"
+      },
+      {
+        "address": "kaspa:qpamkvhgh0kzx50gwvvp5xs8ktmqutcy3dfs9dc3w7lm9rq0zs76vf959mmrp",
+        "blue": 8981,
+        "share": 0.2502159195386287,
+        "label": "F2Pool"
+      },
+      {
+        "address": "kaspa:qrcz0ha5krc2y3snq6vm6quyqdh7fcs8gkx0f5z5v4ld0s32l4p850cvk8udv",
+        "blue": 4221,
+        "share": 0.11759953194216143,
+        "label": "ViaBTC"
+      },
+      {
+        "address": "kaspa:qrvqn64vxkcevdev6k2y49slxw4ls57cjzdqmqkcgh9wu7xmghk57v4ehla0t",
+        "blue": 2583,
+        "share": 0.07196389268102416,
+        "label": "K1Pool"
+      },
+      {
+        "address": "kaspa:qqje6ps46n6pvjstupfxgrg6v3pegd22q84jachnfrnz2vh5vznqw8redgln6",
+        "blue": 1301,
+        "share": 0.03624662190399242,
+        "label": ""
+      }
+    ],
+    "top2_addresses_share": 0.5608335887220349,
+    "unknown_addresses": [
+      {
+        "address": "kaspa:qqje6ps46n6pvjstupfxgrg6v3pegd22q84jachnfrnz2vh5vznqw8redgln6",
+        "blocks": 1301,
+        "blue": 1301,
+        "sample_minerInfo": "2.1.0/ZKM1e2caf7270a44c0e8463c08c212da935332e734e53c7d6267941a263eab282674"
+      },
+      {
+        "address": "kaspa:qzv6lyy49ztas78037umkc9acmrertejgesqsnmjxjrd30fem6em5we3gujgy",
+        "blocks": 1125,
+        "blue": 1125,
+        "sample_minerInfo": "2.1.0/ZKM1d29878fce2f84a70804e237ce854b6a189dab7c618d78d471875041cfd283120"
+      },
+      {
+        "address": "kaspa:qqzffjn32q670kat0huq5j0pcvk95r8j0am62c8fyzd6yr24tefaq758ug3tw",
+        "blocks": 621,
+        "blue": 621,
+        "sample_minerInfo": "2.1.0/ZKM10c816883d7710223630cede697349c04ddeeab42dee227ebbbd8e483a0755170"
+      }
+    ],
+    "solo_addresses": 91
+  },
+  "humpool_address_check": {
+    "address": "kaspa:qrk9decfnl4rayeegp6gd3tc6605zavclkpud5jp78axat5namppwt050d57j",
+    "blocks_with_this_miner_address": 11154,
+    "blue_blocks_with_this_miner_address": 11149,
+    "tags_seen_with_this_address": {
+      "2.1.0/humpool/0.12.20/canxiuminer:61FAba23a639D1028E74BFfe14c483bb80Be9D0E": 5620,
+      "2.1.0/humpool/0.12.9/canxiuminer:61FAba23a639D1028E74BFfe14c483bb80Be9D0E": 5533,
+      "2.1.0/humpool/0.12.32/canxiuminer:61FAba23a639D1028E74BFfe14c483bb80Be9D0E": 1
+    },
+    "addresses_of_blocks_tagged_humpool": {
+      "kaspa:qrk9decfnl4rayeegp6gd3tc6605zavclkpud5jp78axat5namppwt050d57j": 11154
+    },
+    "addresses_of_blocks_tagged_f2pool": {
+      "kaspa:qpamkvhgh0kzx50gwvvp5xs8ktmqutcy3dfs9dc3w7lm9rq0zs76vf959mmrp": 8992
+    },
+    "explorer_label": "HumPool",
+    "illustration_only_coinbase_outputs_paying_this_address_in_window_chain_blocks": 11151
+  },
+  "sample_verification": {
+    "seed": "kaspa-audit/2026-10-26T12:00:00Z/2026-10-26T13:00:00Z",
+    "size_requested": 128,
+    "files": 128,
+    "selection": "sha256(seed + hash) ascending over all window blocks, first N",
+    "checks": {
+      "header_hash_recomputed_ok=True": 128,
+      "nodes_agree_block=True": 128,
+      "nodes_agree_reward_info=True": 128,
+      "rest_payload_matches=True": 128,
+      "merging_coinbase_pays_payload_script=True": 127,
+      "merging_chain_hash_recomputed_ok=True": 127,
+      "csv_row_matches_raw=True": 128
+    },
+    "details": [
+      {
+        "hash": "007349f5bd4e2f3ce24fcffaebd150b0e78a5b57de2903f2ae971b127e756bb5",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "01ff6d1c34ed17863dd72e477619215b00ae69e3ae59ee18380ff1a2ac597b80",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "0740b25a1910ba402dd1334a3faf78a4ee2fda6d6b105648875c77ce376557b5",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "0b6508db806c2cb3dda0e6a75897c0aac594a2a39400117df6992fbf0e939c69",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "0c7034a746ddbe503f5a0bf9ddfc0320c2166ed36c6f387a095abf2b4e814220",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "10d1c27210d8295a39cce3d9c70276b80d763ea61dd3f888c75f282aa872fabe",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "10f795eea9c3d3df9c1b1fa7a135f131b440454c58b51eaff6a5e3e1250d46af",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "12317d4cc665d3c681aec66216609c1463cc5a694001b09fbcb98f48411d038c",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "124b14623cb4d1172d988f3135d4a82e3b83c9d20e97957bd9ffbe19ce1cf218",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "13d727b77d53dcebd34e1b55010ab5f788f1564c5b71f8bd0ec901d499160689",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "13de17b91af93a8340a8fd9c05adaf77514cf09a45d849daaf7129242454c0f5",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "1bc32f63f523d53ccdf45ecd4f7d90928ea12f712a05bb59e902b4174103dda3",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "1c9e97bbe7215e224350a4324a03ee3ea485edd3e76dc81d054853b694b9a01a",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "2029c29d1bb65a3d12dbe721812933ab5bd9220639ae8f5866a439933c95b36d",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "21fbba07771e1debe1e86e8d82075a83888a0a74d4a85d3c243a071c10db5ddc",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "22d16aa5f90cab74a80cf80a64d4c01f027f2c17618f95c49c21dad51c572af0",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "25aa8cbf495a451b44ca52c9f3a5db7dc57b71405affab0c8d728f42b220be5b",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "264f31b8cc708ad22a2768aa85d45e32c67976208b3bbde5c25615321e093a82",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "2b7acfe18abf67e16f022ef8f413fe65d12823e51a87e51ba44c51a76a0c21a6",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "3230b0eb6913a5d6dca8e43400942219965573bddc712725b38433faadf9726f",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "337fedfbc5568e5ea6ab279c0a5bda38fb85096d74f6f6a7ee99b931ca2728a9",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "33b49808fdcc274e65eb813c3fd08f5f854ed7afe5638557f9be4f5e9ac8f9a4",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "344c78a7ac96a394fffd66cc2b42723a8b9857578218b7e084fcfa608119c600",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "357c0b5adcf92a0b34ac1b5a8fef3198a3732e87c1705927a4c691b6be8bf4ea",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "36361ff2d0b017d1f01b7138538033817215d879d991bca3183f418e2dc1c7c0",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "37f646473081433a74c107b5817db2f5502ebce13d1f74a4b43652eaede579af",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "3bae3363c871356a3425ab66861e94b448a65f0c653ffd0273a808f9e844630b",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "3ea402afc288d4d59ed378c1902afe5aeff64c2bba52381a39056ba92fcd8415",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "3f35abbb4083e785b650b17100f35f89aa7e9c6a4c9e33e90e6ae000effdcdab",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "43c452d3450529bfdd664369941996453b937949e3b5e9557fe69c06b0dc80a0",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "44ba2176e584f8cd8a2fcbdcd6a6e3f8eb35635130cc39130396f501daa06732",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "4671ef4e70e7c98d94c3644c23826436ef28e74c1c5af6ffebeed42b882a4a2f",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "46bad2187ff3dff644a70ab32494fafc07fefdd1d86284f7cacdc3bf5c3419ae",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "47e7ceeedb297ac7d531bb749a7e5bb78046795e70291c71fb7192920366a978",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "47e7da177250103c78045489c68e62fce3b18d86c219a475a86c7b6533b4ff6b",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "49186193ace173003a4850eda0c8090067ee0ecc67a92103b24c3aba3bac49a6",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "4a23a337cec7734b3fb56c4f6be41df541b0e5e7391698f98578f60d23fa5a1b",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "4a2ce74547b7fa0dde60bf8c6fbdc9542a87f7861ffbc15982f54876b2b9612f",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "4a51086c15c9824b55044f3f7e30a1f224c93162d2ace31b7ecc268aaba62294",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "4a621428ae3540a92f5a9fce89633543c1f49eaf5d9d1c48a998019bc59ba0d3",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "4c89fda3896028d5af17b1bc29134abaea3a3d1b2aad0352630619a7c4baf323",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "4e9984d9782041b6351578a971c85d24ae4b1166913ec75abcea8a8da70cb2de",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "4fd38d77eed8444aafcf069fdfdefd6f9a334be2060bff98b3d2ee86eb22f53a",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "5462e1b9e7907f1b721df6cbd962677afbf03ce3f490d24295c9f19e3f437acb",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "57819d920e15deb920b6ebf459cb93508be2ae87d08528510e2b43807bc174a4",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "58fcf090bce87a57440532e1aa32f4a0ef7a1ec4dc510dba6ce4be80bb955533",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "5db0f4f4a899c6316ea4119943ec1499a162eaa3c228cb4115ff715756aee887",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "5dd16ddf50e3abcfff6bd3bd0a017d372cb008d4a47abb1fa2950d5831310b18",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "606cf4a01e42d11be594d9855b7f894b8080c77240716b77cc4bbe3bf5852b26",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "63796fa270b89a60d56f9f0ccfc2f74dd78565736498ec31bab45e32d49a4e9f",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "63ea6cbf2fbb0174a5fb67ec01a75b14720f595b456181da30eca35ddb14d13f",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "64d6ba5452de82769830c739c6b994318187715b11ebadc5ced6956ed2988e0a",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "64fbc87952ea40118e62fe69a4696e35c51aac7a8f1ff5ea9c24928acb1047ad",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "66061770a099654845f0f1bc1b0efeeb6bb25c73ca57cc8b8515ae40e5b83f0c",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "6ae2828b0f08f6927c88f6391ce34bc46c32b25462b9ca3e6e4c0135083f5a31",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "6b2f3c0c791f31b77cbdcc6616808772ff33c93cf65ff9bebc7c6c61d64f5470",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "6bdab4d282772bdb4854738253bcf56bc4eafed55019e78ddd90a5ce44f06257",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "6dea87cd85dd4038aebb14461d8e5f976f2da12c9262eb2c4ea1bce33bae5d48",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "70dce4f4dc29c7b27722c69ee9362e898511e4de7a606156bcc4ab20c20cd77b",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "71395fa95c06d41f19f8fe3a28746e315ce46a22584907806799cef6d69ecddc",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "7a59666b001e5e8a64ac1c16d6b717c602d89d2605d71b22f4eb118f4577c419",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "7be4fc7b765d265cce89169ade84b9027054ed8c0ee2d77fd9b75732da5cf4c2",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "7db1d057f10c16f14cc09fd9e99f9befc1551989438ed8b8c2f470df33dbe639",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "7f547ac95a82e93d58326dcc0c9173b37cd33b45b8f25165a4857671f1861cd7",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "802b347320000c9935de917915c4285a5b699b236bc53103e271fbae5fab32f3",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "828410cf72f53105ca3455895b4517bae17cf4be1954d1e90daf7924cdd47501",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "84fac98ebb20a5183396e9751e30ec203bbfbbf25f407ef36630585b9ce67299",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "8608680cb6345791c8a3ae7c10c05d22fb6ef9c2c5c60061de58be0d26783460",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "89688f4b596b248527f70593ba120eca6b2dd554695c041b0f254fb4b7150c0c",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "8a69269e2932e4939b6f3652027a8de237da34959471c0912ae893c25dbf16dc",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "90254d92a5c4c17146a535ecd75d05250a76a856f6ad66eef6715cfd670f4519",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "92a51f28f08cd1abc1f00f3d05b3b5f93f82f52a7256ee1f63d18a73fb17c8e3",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "94e439e72a411543848a318d9b9e980a022109eec00f27d41c409a2058089fdb",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "9500668f780aae0cca8f99136835cf5f5ab86641e58c69f5ba88e34973d48236",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "950b8d7be20e5dd882d807cc873a4a5766773606010b63b7dc44e3b936b10e62",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "961998ee2c3ab9569f9e88f93c2ded6296bd459a4c4aebb5f0528081d4f35f38",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "9b5dc3cbed92b866570c644ab4106bc19563e248add3aa63025f5785c8701cf7",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "9c4f756f1d261463023756e78ac0ae1f3bc7db3d44e8220a1609eb4438ca3f8c",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "a007f31c9fef3f4851cf1275387cb1763ffdfd7da492aaff6ebb5a25580da43b",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "a0d4bc1a43e27b05ca7631ab69832bbb519fc64685a49676bd54877fe1aeac45",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "a232b430dc11851cedbf7e5f0c522baa42e6c71d86ca588be735747ac5eed145",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "a8a9d805cbc6acedf058fa2d9abbdbcff2b2bd71d32d6f4cda0a7b6d61f34268",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "a8dea8a38d15a50640f1172b877733a9162e8551e0aa0885c0c928f37babae48",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "ab31053a13d6f159771acfdcf728ade2154eb021d429077e5c24bb61df385abd",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "abddf22db9984e936207916d680c75ce8fccae94d43e3b5ac3364aba915767a6",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "ad66ccf60c5fc1addf3ef6f94553d65e77805614792415aa96ce4de9a4822c62",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "b0131fe295c75eca14145430b033250d48653be9c0ae79ce86c06bb45dea1ccd",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "b0c9410b7af974d9fe5600917078566c302e726649e9008584f13707e082f407",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "b34fb7349b2905a954ddf3ef858125146888c0b1ffbcab01cc83289ae53c4b42",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "b42877efe77a443a84a51443d2de4701c5d786c09710e5a8ce4802bff77fc262",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "ba09e09ef483d46d82e2f42901dd479f18c5871202804837731880f9f8435b33",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "bbb5c1018ebfb3b0ed584af3554ef5f1ec0dad428a9585243c09207e7dadb437",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "bbc69aa9fb71659835a3b4c4eb42d1c03aae8339800fb4b449898a465a24b546",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "bd935cb4c7a20d076cc2f4b7e246c9eef4fac3cbb303b463c4d7e6167e5e450c",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "c1a436ea0e5dde7fc4f81b5b964814a4022f165f8f8d0cc93e17e810f093652d",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "c484bb18381d37b908146d32d3b20bd7df4dd42f95bbb3ae4d0dba0ebd33b62d",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "c4af120a72d81295ab55d48b424885b14bcb49316166165e03f2fc449f6c44bc",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "c777d2a038d5d27e1a941b89eb5f6b82fd58be9889668eb666163c8d97ad8765",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "caebbb361eda9cf8ae779f5bc6aa1a19b0bcddb31a447a7460d63d8122e77538",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "cd819c020ca4b851e2f9c0f3a19ac8bf0f611ba5c736f40496df32afc198dce9",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "cda892b06fa0b9d6211dd5ef52351883da1c3ccad20727e74bef14df90dca6ef",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "ce698162d7fb70884b03046b6c91b84e30e396d508c73c9e8f50dc2222486b13",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "d09c6798a56a89b2fb5133a1fdb90a08913327be04b4eb5fb8159287ec8cc714",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "d16aeebad07b50264b2b4156dd40a70836681006b2c9efdfb53db455b1e81ff0",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "d21bc25320f60326edcd0256c3206b203f90a2c7c6d4c5b7cd701ab13b6b0b20",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "d2ceaacf2fcb3242833e252491c64f5100bf010ea478553b510455e420cf36e6",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "d2fe8cb9b24ea623038e587024d3c7ada4f8427aa27d961053d062bee922d96f",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "d6b0310f09c6ae51181119fe2d0dd0ff4b55c6bac9983891eb381d8faa83a8f2",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "d6db2da54e4f58bb5cd5f359f75315b05ca9c36971c5e84dac4e1325f21101f5",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "da0e60722cbaecd99360c240b0ab16a0febbd3a4b4af5b4a52660939d520a2aa",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "dae09d5bf614e10fc6d235ff5e22aba242154d9d716022a035ac347dbb4303e0",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "dd2de266039de463542b20e81253217208a1805d31289985dc4d8f4a3e72f80a",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "dd73a13e45e648d7514b8d23cb1b8c6743a7816d3d102fb1ba0f85ed525de47a",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "dd760621172b9d22d03412b18957246bcf202234593f319a32b345c75f1b861b",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "de09d8ade8acb7beb63f942f2564d31ed793a8e78eb814ded883e032014160f5",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "de67488f6648b1089c42e60a4500a237a836d474d6dd1fafd8466cbac10aa61e",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "e240c41fc069dc4e1662353f7c553d18df18c97dab64c63c7d681b3fbba83947",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "e3c8eeadc7860b5b381796cd56ae6035c1f630e08ee25cee57d49c297d333840",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "e5bd6c6dd06db4a12d0605969c4795b3d26fb6997cf567ccf83c537779450d2a",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "ec268d54032b140ae7807c31e251480fafef861fdd24ff163c42e0c41e534078",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "ede761c868de11c078487e3b05b0cd06ec4f1eff607cc81d2f15c17d99278233",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "ee235545c9162456936ba8545f0092113d22e70ef945b92fe05355b63eb99955",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "f26c87d8086fdfc72b0979e34b58ac4347b2154099c7350a5f3ceed1c02ac772",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "f62d6e66da19c21a4e84b9d7915832b246853554148cf9491027b47a3a5488c1",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "f67694166e6f76ee996433561302ff14817bdf579c0dc1cad7c89b6f9eb83529",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "f891c2325bb2d84c258ebef5a398a6f0b3b3a96e9f1e92d933315c4c9b6bec66",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "f8dd8f897364bd5d7d192e6cff3b2e0ef5c0a731b18bf2ede5f34c67d93f0b67",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      },
+      {
+        "hash": "fb70cfbb392a2357553b56818364e18ca996e033d9f894edeb279200eacaab50",
+        "header_hash_recomputed_ok": true,
+        "nodes_agree_block": true,
+        "nodes_agree_reward_info": true,
+        "nodes_responding": 2,
+        "rest_payload_matches": true,
+        "merging_coinbase_pays_payload_script": true,
+        "merging_chain_hash_recomputed_ok": true,
+        "csv_row_matches_raw": true
+      }
+    ]
+  }
+}

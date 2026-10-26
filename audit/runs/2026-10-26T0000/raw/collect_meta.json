@@ -1,0 +1,103 @@
+{
+  "node": "wss://vivi.kaspa.blue/kaspa/mainnet/wrpc/json",
+  "rest": "https://api.kaspa.org",
+  "start": "2026-10-26T00:00:00.000Z",
+  "end": "2026-10-26T01:00:00.000Z",
+  "marginSec": 600,
+  "startedAt": "2026-10-26T09:34:06.267Z",
+  "serverInfo": {
+    "hasUtxoIndex": true,
+    "isSynced": true,
+    "networkId": "mainnet",
+    "rpcApiRevision": 0,
+    "rpcApiVersion": 1,
+    "serverVersion": "2.1.0",
+    "virtualDaaScore": 575869876
+  },
+  "blockDagInfoAtStart": {
+    "blockCount": 1421396,
+    "difficulty": 17939259247649104,
+    "headerCount": 1421396,
+    "network": "mainnet",
+    "pastMedianTime": 1793007106922,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "f16bd7f9feb2c7a0b91a1e854a8cdbe831fd37cf07599250b7942081fd558099",
+    "tipHashes": [
+      "3ff121f29d2ddd52f754926c24f2efb4bde95120102eaa0f4384dc94d7a530aa",
+      "fa054c8fa7fd302e577f475d96194f9633af06967771fb55125010593ca5c70a",
+      "772104062ea57b6fee8b4369a0a23b7dc6a2285b8f9d2f7ddfd9e4e8b96ae2d4",
+      "68358025195bcc657968e197c9000e8a211f9c425f06e282e65b1622cdfcbfb4",
+      "9c97128bbe7ff71ff75d9e510100c52f0fa55e755a13cbd5f4a1c7e5f423dabe",
+      "f16bd7f9feb2c7a0b91a1e854a8cdbe831fd37cf07599250b7942081fd558099",
+      "adbd38ac3145bbdbd2713550ce094309350a91d8741612a67c47c8e6dbf5b48d"
+    ],
+    "virtualDaaScore": 575869878,
+    "virtualParentHashes": [
+      "772104062ea57b6fee8b4369a0a23b7dc6a2285b8f9d2f7ddfd9e4e8b96ae2d4",
+      "fa054c8fa7fd302e577f475d96194f9633af06967771fb55125010593ca5c70a",
+      "3ff121f29d2ddd52f754926c24f2efb4bde95120102eaa0f4384dc94d7a530aa",
+      "9c97128bbe7ff71ff75d9e510100c52f0fa55e755a13cbd5f4a1c7e5f423dabe",
+      "adbd38ac3145bbdbd2713550ce094309350a91d8741612a67c47c8e6dbf5b48d",
+      "68358025195bcc657968e197c9000e8a211f9c425f06e282e65b1622cdfcbfb4",
+      "f16bd7f9feb2c7a0b91a1e854a8cdbe831fd37cf07599250b7942081fd558099"
+    ]
+  },
+  "locate": {
+    "lowHash": "14027ad255e5626b9c9d1f35980a8bedb10942a806699b220fcbfbef5ac6b388",
+    "probes": [
+      {
+        "blueScore": 573471749,
+        "hash": "4b50b61ea3c8e24befa90077d08616529aa805f5b620939a036d238df4719e83",
+        "timestamp": 1792972429318
+      },
+      {
+        "blueScore": 573469180,
+        "hash": "14027ad255e5626b9c9d1f35980a8bedb10942a806699b220fcbfbef5ac6b388",
+        "timestamp": 1792972169404
+      }
+    ]
+  },
+  "pages": 195,
+  "dagBlocksSeen": 47934,
+  "duplicatesSkipped": 194,
+  "dagTimestampRange": [
+    "2026-10-25T23:49:27.024Z",
+    "2026-10-26T01:10:06.842Z"
+  ],
+  "inWindowFromGetBlocks": 35706,
+  "rewardInfoFailed": [],
+  "blockDagInfoAtEnd": {
+    "blockCount": 1423185,
+    "difficulty": 17891140302593844,
+    "headerCount": 1423185,
+    "network": "mainnet",
+    "pastMedianTime": 1793007288955,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "f3d5d1ba93649dc688bf3ef5b33ff4935747479e328745309d9d55ac210d5b51",
+    "tipHashes": [
+      "2e670ff320e301f023872de1851b1c75038f5d415f11c7a2c1b16e1095bd0203",
+      "791540b9be4f3469c3f5854e4725ee1ba29bd56c0e2a24a489e4ebd75752235a",
+      "c621c2a6d2c67e12151212aa710658f2cfd13a108830d198d0c0004a4fffa9ea",
+      "f3d5d1ba93649dc688bf3ef5b33ff4935747479e328745309d9d55ac210d5b51",
+      "d0a304097f72fe6370bec543d7621c5fbab7fbb9e8823685e05837dc98419c76",
+      "bbd3f9f631f6f93fdb8571ba4f746dc224446b322a277c80e7fa71bf0182c530",
+      "49fec7516bedb61dbc0f5f28c1ff74a8c50bbb386a94e5e5f825bad2708151a5",
+      "8837a4d6a913f59b69a9988bc5afa3565bc6df41aaa5c932f8310e2139aa8621",
+      "1961ff97915f566a0f1b9dfc250bba96456a13815963ff3eba9ddb97e7d24d94"
+    ],
+    "virtualDaaScore": 575871667,
+    "virtualParentHashes": [
+      "d0a304097f72fe6370bec543d7621c5fbab7fbb9e8823685e05837dc98419c76",
+      "c621c2a6d2c67e12151212aa710658f2cfd13a108830d198d0c0004a4fffa9ea",
+      "2e670ff320e301f023872de1851b1c75038f5d415f11c7a2c1b16e1095bd0203",
+      "bbd3f9f631f6f93fdb8571ba4f746dc224446b322a277c80e7fa71bf0182c530",
+      "49fec7516bedb61dbc0f5f28c1ff74a8c50bbb386a94e5e5f825bad2708151a5",
+      "791540b9be4f3469c3f5854e4725ee1ba29bd56c0e2a24a489e4ebd75752235a",
+      "1961ff97915f566a0f1b9dfc250bba96456a13815963ff3eba9ddb97e7d24d94",
+      "8837a4d6a913f59b69a9988bc5afa3565bc6df41aaa5c932f8310e2139aa8621",
+      "f3d5d1ba93649dc688bf3ef5b33ff4935747479e328745309d9d55ac210d5b51"
+    ]
+  },
+  "finishedAt": "2026-10-26T09:37:09.482Z",
+  "errors": []
+}

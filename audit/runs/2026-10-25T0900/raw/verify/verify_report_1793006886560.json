@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    "wss://vivi.kaspa.blue/kaspa/mainnet/wrpc/json",
+    "wss://ava.kaspa.stream/kaspa/mainnet/wrpc/json"
+  ],
+  "startedAt": "2026-10-26T09:25:42.300Z",
+  "enum": {
+    "node": "wss://ava.kaspa.stream/kaspa/mainnet/wrpc/json",
+    "serverInfo": {
+      "hasUtxoIndex": true,
+      "isSynced": true,
+      "networkId": "mainnet",
+      "rpcApiRevision": 0,
+      "rpcApiVersion": 1,
+      "serverVersion": "2.1.0",
+      "virtualDaaScore": 575864814
+    },
+    "pages": 198,
+    "reachedUntil": true,
+    "count": 48696
+  },
+  "sampleFailures": [],
+  "sampleCount": 128,
+  "finishedAt": "2026-10-26T09:28:06.560Z"
+}

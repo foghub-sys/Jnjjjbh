@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    "wss://luna.kaspa.blue/kaspa/mainnet/wrpc/json",
+    "wss://isla.kaspa.red/kaspa/mainnet/wrpc/json"
+  ],
+  "startedAt": "2026-10-26T09:31:06.985Z",
+  "enum": {
+    "node": "wss://isla.kaspa.red/kaspa/mainnet/wrpc/json",
+    "serverInfo": {
+      "hasUtxoIndex": true,
+      "isSynced": true,
+      "networkId": "mainnet",
+      "rpcApiRevision": 0,
+      "rpcApiVersion": 1,
+      "serverVersion": "2.1.0",
+      "virtualDaaScore": 575868119
+    },
+    "pages": 199,
+    "reachedUntil": true,
+    "count": 48903
+  },
+  "sampleFailures": [],
+  "sampleCount": 128,
+  "finishedAt": "2026-10-26T09:32:19.986Z"
+}

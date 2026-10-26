@@ -1,0 +1,111 @@
+{
+  "runs": [
+    "runs/2026-10-25T0800",
+    "runs/2026-10-25T0900",
+    "runs/2026-10-25T1000",
+    "runs/2026-10-25T1100",
+    "runs/2026-10-25T1200",
+    "runs/2026-10-25T1300",
+    "runs/2026-10-25T1400",
+    "runs/2026-10-25T1500",
+    "runs/2026-10-25T1600",
+    "runs/2026-10-25T1700",
+    "runs/2026-10-25T1800",
+    "runs/2026-10-25T1900",
+    "runs/2026-10-25T2000",
+    "runs/2026-10-25T2100",
+    "runs/2026-10-25T2200",
+    "runs/2026-10-25T2300",
+    "runs/2026-10-26T0000",
+    "runs/2026-10-26T0100",
+    "runs/2026-10-26T0200",
+    "runs/2026-10-26T0300",
+    "runs/2026-10-26T0400",
+    "runs/2026-10-26T0500",
+    "runs/2026-10-26T0600",
+    "runs/2026-10-26T0700"
+  ],
+  "hours": 24,
+  "first_start": "2026-10-25T08:00:00.000Z",
+  "last_end": "2026-10-26T08:00:00.000Z",
+  "contiguous_hours": true,
+  "duplicates_across_runs": 0,
+  "colors": {
+    "BLUE": 862316,
+    "RED": 1259
+  },
+  "verification_totals": {
+    "hours": 24,
+    "blocks": 863575,
+    "reward_info_failed": 0,
+    "parse_or_consistency_errors": 0,
+    "payout_cross_check_match": 862316,
+    "payout_cross_check_other": 0,
+    "secondary_enum_differences": 0,
+    "sample_files": 3072,
+    "sample_check_failures": 0,
+    "pages_contiguous_false": 0
+  },
+  "HumPool_plus_F2Pool": {
+    "blue": 489187,
+    "of_blue": 862316,
+    "share": 0.5672943561293076,
+    "wilson95": [
+      0.5662483387149054,
+      0.5683397739784776
+    ],
+    "hour_cluster_bootstrap95": [
+      0.5633670593177363,
+      0.5717430467578656
+    ],
+    "hourly_min": 0.552117,
+    "hourly_max": 0.59704,
+    "hours_above_50pct": 24,
+    "hours_with_share_at_or_below_claim": 0,
+    "claim_0539_inside_wilson95": false
+  },
+  "top_addresses": [
+    {
+      "address": "kaspa:qrk9decfnl4rayeegp6gd3tc6605zavclkpud5jp78axat5namppwt050d57j",
+      "blue": 271505,
+      "share": 0.3148555749864319
+    },
+    {
+      "address": "kaspa:qpamkvhgh0kzx50gwvvp5xs8ktmqutcy3dfs9dc3w7lm9rq0zs76vf959mmrp",
+      "blue": 217682,
+      "share": 0.2524387811428757
+    },
+    {
+      "address": "kaspa:qrcz0ha5krc2y3snq6vm6quyqdh7fcs8gkx0f5z5v4ld0s32l4p850cvk8udv",
+      "blue": 93112,
+      "share": 0.10797897754419493
+    }
+  ],
+  "top2_addresses_share": 0.5672943561293076,
+  "unknown_addresses": [
+    {
+      "address": "kaspa:qqrprr45fsgj8zrypu6fnz7fku4ct45tzy38m50nka53pdmxl0dds4vtf39f2",
+      "blocks": 37994
+    },
+    {
+      "address": "kaspa:qpwz9sgjzkjnslmy7asm4eadwvtfqtv2ae8yr8xav6vc0he5my4jzvx7hsxnr",
+      "blocks": 18000
+    },
+    {
+      "address": "kaspa:qqje6ps46n6pvjstupfxgrg6v3pegd22q84jachnfrnz2vh5vznqw8redgln6",
+      "blocks": 6869
+    },
+    {
+      "address": "kaspa:qqg7cs2e8vh4k2y9ashwqxvv8z5n7rhx0w3kuu3gcwgmrpmzw8luvuwchhsn4",
+      "blocks": 6702
+    },
+    {
+      "address": "kaspa:qzv6lyy49ztas78037umkc9acmrertejgesqsnmjxjrd30fem6em5we3gujgy",
+      "blocks": 6527
+    },
+    {
+      "address": "kaspa:qqzffjn32q670kat0huq5j0pcvk95r8j0am62c8fyzd6yr24tefaq758ug3tw",
+      "blocks": 2038
+    }
+  ]
+}

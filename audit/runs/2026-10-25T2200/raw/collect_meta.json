@@ -1,0 +1,93 @@
+{
+  "node": "wss://dina.kaspa.green/kaspa/mainnet/wrpc/json",
+  "rest": "https://api.kaspa.org",
+  "start": "2026-10-25T22:00:00.000Z",
+  "end": "2026-10-25T23:00:00.000Z",
+  "marginSec": 600,
+  "startedAt": "2026-10-26T09:25:05.122Z",
+  "serverInfo": {
+    "hasUtxoIndex": true,
+    "isSynced": true,
+    "networkId": "mainnet",
+    "rpcApiRevision": 0,
+    "rpcApiVersion": 1,
+    "serverVersion": "2.1.0",
+    "virtualDaaScore": 575864411
+  },
+  "blockDagInfoAtStart": {
+    "blockCount": 1415929,
+    "difficulty": 17806140352436354,
+    "headerCount": 1415929,
+    "network": "mainnet",
+    "pastMedianTime": 1793006574700,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "cc5a7afb1b161af71a83b34952183c0d38b965a8fa5321440f75516b2d624e4c",
+    "tipHashes": [
+      "f88c7f6abdbc386c1596923f873024c41393eb51fddd3dbdc4c0000981c2a826",
+      "e98d1d0200bfdcbd2f7beb27bd0457becda1db3b29a05b4e0c36384f453f4e29",
+      "cc5a7afb1b161af71a83b34952183c0d38b965a8fa5321440f75516b2d624e4c",
+      "0427d5fa1bbdc6cc3bf95ce8bc697c2f9da9afaeb492f5b4d78321d56b05e935",
+      "036858f9763896cc19fbf9135af9472926db364336bd93b399cf14987cffc344",
+      "3d172680a1269b8f46a7456501187439917d17809d0e7f1d314d451b4c5dc3cb",
+      "dfbb278bd4fa4e9322b5eb79bc1e7e7285ccb6bd4b158a34f17697b1f2ce4520"
+    ],
+    "virtualDaaScore": 575864411,
+    "virtualParentHashes": [
+      "0427d5fa1bbdc6cc3bf95ce8bc697c2f9da9afaeb492f5b4d78321d56b05e935",
+      "036858f9763896cc19fbf9135af9472926db364336bd93b399cf14987cffc344",
+      "dfbb278bd4fa4e9322b5eb79bc1e7e7285ccb6bd4b158a34f17697b1f2ce4520",
+      "3d172680a1269b8f46a7456501187439917d17809d0e7f1d314d451b4c5dc3cb",
+      "e98d1d0200bfdcbd2f7beb27bd0457becda1db3b29a05b4e0c36384f453f4e29",
+      "f88c7f6abdbc386c1596923f873024c41393eb51fddd3dbdc4c0000981c2a826",
+      "cc5a7afb1b161af71a83b34952183c0d38b965a8fa5321440f75516b2d624e4c"
+    ]
+  },
+  "locate": {
+    "lowHash": "3d7b9b2ebac0e98c70215a98af0cf0f0e032e49746e1b440d8ed36806056bad0",
+    "probes": [
+      {
+        "blueScore": 573400368,
+        "hash": "6430d50c3d74d9b438fbd7d8535229070e76c59f137bc8aa422c97aca0e114a1",
+        "timestamp": 1792965220775
+      },
+      {
+        "blueScore": 573397883,
+        "hash": "3d7b9b2ebac0e98c70215a98af0cf0f0e032e49746e1b440d8ed36806056bad0",
+        "timestamp": 1792964980109
+      }
+    ]
+  },
+  "pages": 195,
+  "dagBlocksSeen": 47912,
+  "duplicatesSkipped": 194,
+  "dagTimestampRange": [
+    "2026-10-25T21:49:35.615Z",
+    "2026-10-25T23:10:07.336Z"
+  ],
+  "inWindowFromGetBlocks": 35958,
+  "rewardInfoFailed": [],
+  "blockDagInfoAtEnd": {
+    "blockCount": 1417054,
+    "difficulty": 17862852095827200,
+    "headerCount": 1417054,
+    "network": "mainnet",
+    "pastMedianTime": 1793006681659,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "799e35e8840bb3bc847621b73ca859265a418fbefce2d494d55aa1c956447168",
+    "tipHashes": [
+      "77d7e87defca748018d4cd94d93b73e26fc1d5b46299beeeca20ebe156555e61",
+      "799e35e8840bb3bc847621b73ca859265a418fbefce2d494d55aa1c956447168",
+      "317547cc5a3c1b3da78cb75c7c2344b070fc6d22fccf66cc6c33698d38ba2576",
+      "34824999dfe05db280dd4f2537311e9ddec1b3cce32cb41ef57b96e4fe76b8e1"
+    ],
+    "virtualDaaScore": 575865536,
+    "virtualParentHashes": [
+      "77d7e87defca748018d4cd94d93b73e26fc1d5b46299beeeca20ebe156555e61",
+      "317547cc5a3c1b3da78cb75c7c2344b070fc6d22fccf66cc6c33698d38ba2576",
+      "799e35e8840bb3bc847621b73ca859265a418fbefce2d494d55aa1c956447168",
+      "34824999dfe05db280dd4f2537311e9ddec1b3cce32cb41ef57b96e4fe76b8e1"
+    ]
+  },
+  "finishedAt": "2026-10-26T09:26:52.574Z",
+  "errors": []
+}

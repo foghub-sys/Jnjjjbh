@@ -1,0 +1,97 @@
+{
+  "node": "wss://luna.kaspa.blue/kaspa/mainnet/wrpc/json",
+  "rest": "https://api.kaspa.org",
+  "start": "2026-10-26T02:00:00.000Z",
+  "end": "2026-10-26T03:00:00.000Z",
+  "marginSec": 600,
+  "startedAt": "2026-10-26T09:27:26.759Z",
+  "serverInfo": {
+    "hasUtxoIndex": true,
+    "isSynced": true,
+    "networkId": "mainnet",
+    "rpcApiRevision": 0,
+    "rpcApiVersion": 1,
+    "serverVersion": "2.1.0",
+    "virtualDaaScore": 575865872
+  },
+  "blockDagInfoAtStart": {
+    "blockCount": 1417390,
+    "difficulty": 17852182707445186,
+    "headerCount": 1417390,
+    "network": "mainnet",
+    "pastMedianTime": 1793006711270,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "5a3cc5e022e775c1eb4832adb9fee298db25355f0c910a414adc3b7d84190c09",
+    "tipHashes": [
+      "96cfacc0dcfe65840aa2a7ed5ac30e92a403c3f0df8a1bc5c53848809418a5e3",
+      "5a3cc5e022e775c1eb4832adb9fee298db25355f0c910a414adc3b7d84190c09",
+      "ca68079a9c16005d5abe2b23532dd1816538ea2990601fa72cba1ed0dc866876"
+    ],
+    "virtualDaaScore": 575865872,
+    "virtualParentHashes": [
+      "ca68079a9c16005d5abe2b23532dd1816538ea2990601fa72cba1ed0dc866876",
+      "96cfacc0dcfe65840aa2a7ed5ac30e92a403c3f0df8a1bc5c53848809418a5e3",
+      "5a3cc5e022e775c1eb4832adb9fee298db25355f0c910a414adc3b7d84190c09"
+    ]
+  },
+  "locate": {
+    "lowHash": "7fbf1d39eb851059dccdc6d1d3cfd8bfc6aacccb7d816f5a01796e06fc033640",
+    "probes": [
+      {
+        "blueScore": 573542988,
+        "hash": "8e87d3961fd0fcd8f684a6b3d4812ebf9a5d7a8f606d09cdebb00aa9a6ed3cae",
+        "timestamp": 1792979666076
+      },
+      {
+        "blueScore": 573540053,
+        "hash": "7fbf1d39eb851059dccdc6d1d3cfd8bfc6aacccb7d816f5a01796e06fc033640",
+        "timestamp": 1792979360483
+      }
+    ]
+  },
+  "pages": 199,
+  "dagBlocksSeen": 48903,
+  "duplicatesSkipped": 198,
+  "dagTimestampRange": [
+    "2026-10-26T01:49:17.281Z",
+    "2026-10-26T03:10:23.530Z"
+  ],
+  "inWindowFromGetBlocks": 36084,
+  "rewardInfoFailed": [],
+  "blockDagInfoAtEnd": {
+    "blockCount": 1419575,
+    "difficulty": 17879760118089812,
+    "headerCount": 1419575,
+    "network": "mainnet",
+    "pastMedianTime": 1793006927422,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "34db214ccbfe22a8c7a4cb7285356b4db6c0f3e7f8959d64a96a4277ad97e7ee",
+    "tipHashes": [
+      "02d7f096c21a9317f167d25058c8ea7e043b70837cfe756c02fa281d72587384",
+      "cadd8d8e3419b02d257c90dc13bfc87ae47e363760e46976908aae23ed2fdfc1",
+      "27429e68c204ef3b7cdcf8f0f5a01b9de2f4e2811d003ec495d8577b2f5c9838",
+      "627e122d13dbf62052a199c7a71cdf6615d8004b21fbcedb95ad522e4e7bdd5c",
+      "c6c15260136c0d6c148e92c00c6f39ff1a9ab90415012ef69a313b1b7176fe81",
+      "34db214ccbfe22a8c7a4cb7285356b4db6c0f3e7f8959d64a96a4277ad97e7ee",
+      "0f510ae9b3d598d039549af5edac86ac8d7f1f1c17def706acaad61a89c1390b",
+      "c7261b84d7b3f1d7cdabdafa11796e941601a2bac4330e3b6d0bc4a3ceb9bd34",
+      "ea0a7ee481135fbf46e53adbb128a66781f5affd35321a6d7b9b4081c2aaa69a",
+      "164f99bc0e246d57fd4d4a605b44a2cfffc2870ca033f2e13e4316866d386d70"
+    ],
+    "virtualDaaScore": 575868057,
+    "virtualParentHashes": [
+      "cadd8d8e3419b02d257c90dc13bfc87ae47e363760e46976908aae23ed2fdfc1",
+      "02d7f096c21a9317f167d25058c8ea7e043b70837cfe756c02fa281d72587384",
+      "627e122d13dbf62052a199c7a71cdf6615d8004b21fbcedb95ad522e4e7bdd5c",
+      "27429e68c204ef3b7cdcf8f0f5a01b9de2f4e2811d003ec495d8577b2f5c9838",
+      "34db214ccbfe22a8c7a4cb7285356b4db6c0f3e7f8959d64a96a4277ad97e7ee",
+      "c6c15260136c0d6c148e92c00c6f39ff1a9ab90415012ef69a313b1b7176fe81",
+      "ea0a7ee481135fbf46e53adbb128a66781f5affd35321a6d7b9b4081c2aaa69a",
+      "0f510ae9b3d598d039549af5edac86ac8d7f1f1c17def706acaad61a89c1390b",
+      "c7261b84d7b3f1d7cdabdafa11796e941601a2bac4330e3b6d0bc4a3ceb9bd34",
+      "164f99bc0e246d57fd4d4a605b44a2cfffc2870ca033f2e13e4316866d386d70"
+    ]
+  },
+  "finishedAt": "2026-10-26T09:31:01.460Z",
+  "errors": []
+}

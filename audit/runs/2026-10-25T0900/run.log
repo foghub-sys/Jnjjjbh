@@ -1,0 +1,203 @@
+2026-10-26T09:21:54.623Z server {"hasUtxoIndex":true,"isSynced":true,"networkId":"mainnet","rpcApiRevision":0,"rpcApiVersion":1,"serverVersion":"2.1.0","virtualDaaScore":575862492}
+2026-10-26T09:21:55.574Z lowHash 0d9c851dbe4b2360c6230adbcadffc7ab994e1835c32531d55affe74473d353f [{"blueScore":572937019,"hash":"8ba416057e60242defb2e66f3b2d855f082c75ca880d5917b2c8deba67e821aa","timestamp":1792918881156},{"blueScore":572929975,"hash":"0d9c851dbe4b2360c6230adbcadffc7ab994e1835c32531d55affe74473d353f","timestamp":1792918166261}]
+2026-10-26T09:22:08.001Z page 10 seen 2474 inWindow 0 highTs 2026-10-25T08:53:35.103Z
+2026-10-26T09:22:17.426Z page 20 seen 4942 inWindow 0 highTs 2026-10-25T08:57:45.860Z
+2026-10-26T09:22:25.495Z page 30 seen 7402 inWindow 1158 highTs 2026-10-25T09:01:53.607Z
+2026-10-26T09:22:32.937Z page 40 seen 9853 inWindow 3609 highTs 2026-10-25T09:05:53.072Z
+2026-10-26T09:22:40.367Z page 50 seen 12306 inWindow 6062 highTs 2026-10-25T09:09:56.135Z
+2026-10-26T09:22:48.702Z page 60 seen 14759 inWindow 8515 highTs 2026-10-25T09:13:52.591Z
+2026-10-26T09:22:56.354Z page 70 seen 17230 inWindow 10986 highTs 2026-10-25T09:17:54.219Z
+2026-10-26T09:23:06.236Z page 80 seen 19694 inWindow 13450 highTs 2026-10-25T09:21:57.042Z
+2026-10-26T09:23:13.963Z page 90 seen 22166 inWindow 15922 highTs 2026-10-25T09:26:02.860Z
+2026-10-26T09:23:21.203Z page 100 seen 24612 inWindow 18368 highTs 2026-10-25T09:30:09.705Z
+2026-10-26T09:23:28.342Z page 110 seen 27079 inWindow 20835 highTs 2026-10-25T09:34:23.821Z
+2026-10-26T09:23:35.073Z page 120 seen 29515 inWindow 23271 highTs 2026-10-25T09:38:24.121Z
+2026-10-26T09:23:41.941Z page 130 seen 31971 inWindow 25727 highTs 2026-10-25T09:42:30.328Z
+2026-10-26T09:23:49.284Z page 140 seen 34422 inWindow 28178 highTs 2026-10-25T09:46:35.517Z
+2026-10-26T09:23:57.377Z page 150 seen 36888 inWindow 30644 highTs 2026-10-25T09:50:44.894Z
+2026-10-26T09:24:06.211Z page 160 seen 39346 inWindow 33102 highTs 2026-10-25T09:54:51.596Z
+2026-10-26T09:24:13.251Z page 170 seen 41828 inWindow 35584 highTs 2026-10-25T09:58:58.620Z
+2026-10-26T09:24:21.543Z page 180 seen 44288 inWindow 36216 highTs 2026-10-25T10:03:02.175Z
+2026-10-26T09:24:28.847Z page 190 seen 46718 inWindow 36216 highTs 2026-10-25T10:07:09.301Z
+2026-10-26T09:24:35.368Z enumeration done 48696 in window 36216
+2026-10-26T09:24:38.842Z rewardInfo 2000 / 36216
+2026-10-26T09:24:42.059Z rewardInfo 4000 / 36216
+2026-10-26T09:24:45.247Z rewardInfo 6000 / 36216
+2026-10-26T09:24:48.519Z rewardInfo 8000 / 36216
+2026-10-26T09:24:51.865Z rewardInfo 10000 / 36216
+2026-10-26T09:24:55.104Z rewardInfo 12000 / 36216
+2026-10-26T09:24:58.210Z rewardInfo 14000 / 36216
+2026-10-26T09:25:03.666Z rewardInfo 16000 / 36216
+2026-10-26T09:25:07.845Z rewardInfo 18000 / 36216
+2026-10-26T09:25:11.141Z rewardInfo 20000 / 36216
+2026-10-26T09:25:14.473Z rewardInfo 22000 / 36216
+2026-10-26T09:25:17.740Z rewardInfo 24000 / 36216
+2026-10-26T09:25:20.850Z rewardInfo 26000 / 36216
+2026-10-26T09:25:23.841Z rewardInfo 28000 / 36216
+2026-10-26T09:25:26.999Z rewardInfo 30000 / 36216
+2026-10-26T09:25:30.071Z rewardInfo 32000 / 36216
+2026-10-26T09:25:33.497Z rewardInfo 34000 / 36216
+2026-10-26T09:25:37.096Z rewardInfo 36000 / 36216
+2026-10-26T09:25:37.495Z done; rewardInfo failures 0 transient errors 0
+36216 window blocks; 128 sampled -> /home/user/Jnjjjbh/audit/runs/2026-10-25T0900/raw/sample_hashes.txt
+2026-10-26T09:26:36.052Z secondary enumeration {"node":"wss://ava.kaspa.stream/kaspa/mainnet/wrpc/json","serverInfo":{"hasUtxoIndex":true,"isSynced":true,"networkId":"mainnet","rpcApiRevision":0,"rpcApiVersion":1,"serverVersion":"2.1.0","virtualDaaScore":575864814},"pages":198,"reachedUntil":true,"count":48696}
+2026-10-26T09:26:55.497Z sampled 25 / 128
+2026-10-26T09:27:13.979Z sampled 50 / 128
+2026-10-26T09:27:30.336Z sampled 75 / 128
+2026-10-26T09:27:47.458Z sampled 100 / 128
+2026-10-26T09:28:04.415Z sampled 125 / 128
+2026-10-26T09:28:06.560Z sample done, failures 0
+{
+ "colors": {
+  "BLUE": 36197,
+  "RED": 19,
+  "UNKNOWN": 0,
+  "rule": "BLUE/RED only when GetBlockRewardInfo returns it; anything else kept as UNKNOWN"
+ },
+ "errors": {},
+ "payout_cross_check_all_blue_blocks": {
+  "match": 36197
+ },
+ "results": {
+  "blue_blocks": 36197,
+  "HumPool_plus_F2Pool": {
+   "blue": 20323,
+   "share": 0.5614553692294941,
+   "wilson95": [
+    0.5563372859097965,
+    0.5665604098540117
+   ],
+   "minute_bootstrap95": [
+    0.5560018708559166,
+    0.5667962973106205
+   ],
+   "claim_0539_inside_wilson95": false,
+   "difference_pp": 2.246
+  },
+  "top_addresses_by_blue_blocks": [
+   {
+    "address": "kaspa:qrk9decfnl4rayeegp6gd3tc6605zavclkpud5jp78axat5namppwt050d57j",
+    "blue": 11247,
+    "share": 0.3107163577092024,
+    "label": "HumPool"
+   },
+   {
+    "address": "kaspa:qpamkvhgh0kzx50gwvvp5xs8ktmqutcy3dfs9dc3w7lm9rq0zs76vf959mmrp",
+    "blue": 9076,
+    "share": 0.2507390115202917,
+    "label": "F2Pool"
+   },
+   {
+    "address": "kaspa:qrcz0ha5krc2y3snq6vm6quyqdh7fcs8gkx0f5z5v4ld0s32l4p850cvk8udv",
+    "blue": 4232,
+    "share": 0.11691576649998618,
+    "label": "ViaBTC"
+   },
+   {
+    "address": "kaspa:qqrprr45fsgj8zrypu6fnz7fku4ct45tzy38m50nka53pdmxl0dds4vtf39f2",
+    "blue": 3068,
+    "share": 0.08475840539271211,
+    "label": ""
+   },
+   {
+    "address": "kaspa:qrvqn64vxkcevdev6k2y49slxw4ls57cjzdqmqkcgh9wu7xmghk57v4ehla0t",
+    "blue": 2520,
+    "share": 0.06961902920131503,
+    "label": "K1Pool"
+   }
+  ],
+  "top2_addresses_share": 0.5614553692294941,
+  "unknown_addresses": [
+   {
+    "address": "kaspa:qqrprr45fsgj8zrypu6fnz7fku4ct45tzy38m50nka53pdmxl0dds4vtf39f2",
+    "blocks": 3068,
+    "blue": 3068,
+    "sample_minerInfo": "2.0.1/ZKM190aeacd2c9867805eb5e923d0bfc8477403f147c5d98864ac70d24a7e68181da"
+   },
+   {
+    "address": "kaspa:qqg7cs2e8vh4k2y9ashwqxvv8z5n7rhx0w3kuu3gcwgmrpmzw8luvuwchhsn4",
+    "blocks": 378,
+    "blue": 375,
+    "sample_minerInfo": "2.0.1/ZKM12e217001fd1bfc987e843dfd8e22fba3ba44d07f0dbe8d456855408a234b242e"
+   }
+  ],
+  "solo_addresses": 89
+ }
+}
+{
+ "blocks_in_window": 36216,
+ "first_timestamp": "2026-10-25T09:00:00.023Z",
+ "last_timestamp": "2026-10-25T09:59:59.714Z",
+ "blocks_per_second": 10.06,
+ "blocks_per_minute_min_max": [
+  554,
+  659
+ ],
+ "minutes_with_blocks": 60,
+ "largest_timestamp_gaps_ms": [
+  {
+   "gap_ms": 1302,
+   "after": "2026-10-25T09:55:34.925Z"
+  },
+  {
+   "gap_ms": 1212,
+   "after": "2026-10-25T09:42:38.096Z"
+  },
+  {
+   "gap_ms": 1176,
+   "after": "2026-10-25T09:03:49.810Z"
+  },
+  {
+   "gap_ms": 1125,
+   "after": "2026-10-25T09:24:30.192Z"
+  },
+  {
+   "gap_ms": 1121,
+   "after": "2026-10-25T09:25:07.482Z"
+  }
+ ],
+ "boundary_counts": {
+  "[start-1s,start)": 9,
+  "[start,start+1s)": 9,
+  "[end-1s,end)": 14,
+  "[end,end+1s)": 4
+ },
+ "window_daaScore_range": [
+  574986094,
+  575022307
+ ],
+ "blocks_outside_window_by_timestamp_but_inside_window_daa_range": 0,
+ "note": "Blocks never merged by the selected chain (outside the past of the sink at query time) are not returned by getBlocks; the secondary-node enumeration is the cross-check."
+}
+{
+ "header_hash_recomputed_ok=True": 128,
+ "nodes_agree_block=True": 128,
+ "nodes_agree_reward_info=True": 128,
+ "rest_payload_matches=True": 128,
+ "merging_coinbase_pays_payload_script=True": 128,
+ "merging_chain_hash_recomputed_ok=True": 128,
+ "csv_row_matches_raw=True": 128
+}
+HumPool 11247 0.310716
+F2Pool 9076 0.250739
+ViaBTC 4232 0.116916
+UNKNOWN 3443 0.095118
+K1Pool 2520 0.069619
+WhalePool 1276 0.035252
+SOLO 1014 0.028013
+Kaspa-pool 939 0.025941
+2Miners 490 0.013537
+EMCD 429 0.011852
+RabidPool 423 0.011686
+HeroMiners 295 0.00815
+Kryptex 243 0.006713
+Binance Pool 232 0.006409
+AntPool 196 0.005415
+NiceHash 51 0.001409
+Kat Pool 45 0.001243
+WoolyPooly 22 0.000608
+BaikalMine 10 0.000276
+Ordina Mining 8 0.000221
+CyberPool 6 0.000166
+HumPool+F2Pool 20323 0.561455
+TOTAL 36197 1.0

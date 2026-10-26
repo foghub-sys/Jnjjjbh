@@ -1,0 +1,214 @@
+2026-10-26T09:34:29.806Z server {"hasUtxoIndex":true,"isSynced":true,"networkId":"mainnet","rpcApiRevision":0,"rpcApiVersion":1,"serverVersion":"2.1.0","virtualDaaScore":575870094}
+2026-10-26T09:34:30.567Z lowHash fcf5b9634ce176f03d1c093404b05250e23aa9823efb154bf32dd2257328c7b6 [{"blueScore":573436092,"hash":"b2452a9e8af74172fbef34bbe8fc4caa6f5901ea718933552363cd9bcfefdabb","timestamp":1792968839754},{"blueScore":573433418,"hash":"fcf5b9634ce176f03d1c093404b05250e23aa9823efb154bf32dd2257328c7b6","timestamp":1792968580258}]
+2026-10-26T09:34:49.516Z page 10 seen 2485 inWindow 0 highTs 2026-10-25T22:53:40.117Z
+2026-10-26T09:35:03.093Z page 20 seen 4939 inWindow 0 highTs 2026-10-25T22:57:37.315Z
+2026-10-26T09:35:17.194Z page 30 seen 7401 inWindow 982 highTs 2026-10-25T23:01:42.572Z
+2026-10-26T09:35:31.453Z page 40 seen 9855 inWindow 3436 highTs 2026-10-25T23:06:03.912Z
+2026-10-26T09:35:46.134Z page 50 seen 12295 inWindow 5876 highTs 2026-10-25T23:10:23.803Z
+2026-10-26T09:36:02.670Z page 60 seen 14756 inWindow 8337 highTs 2026-10-25T23:14:38.863Z
+2026-10-26T09:36:15.481Z page 70 seen 17225 inWindow 10806 highTs 2026-10-25T23:18:45.918Z
+2026-10-26T09:36:27.580Z page 80 seen 19687 inWindow 13268 highTs 2026-10-25T23:22:46.685Z
+2026-10-26T09:36:47.554Z page 90 seen 22158 inWindow 15739 highTs 2026-10-25T23:26:47.327Z
+2026-10-26T09:36:58.869Z page 100 seen 24608 inWindow 18189 highTs 2026-10-25T23:30:40.544Z
+2026-10-26T09:37:17.998Z page 110 seen 27056 inWindow 20637 highTs 2026-10-25T23:34:53.451Z
+2026-10-26T09:37:33.405Z page 120 seen 29530 inWindow 23111 highTs 2026-10-25T23:38:55.981Z
+2026-10-26T09:37:46.746Z page 130 seen 31996 inWindow 25577 highTs 2026-10-25T23:43:03.782Z
+2026-10-26T09:38:05.448Z page 140 seen 34454 inWindow 28035 highTs 2026-10-25T23:47:12.424Z
+2026-10-26T09:38:20.554Z page 150 seen 36904 inWindow 30485 highTs 2026-10-25T23:51:18.892Z
+2026-10-26T09:38:35.146Z page 160 seen 39386 inWindow 32967 highTs 2026-10-25T23:55:30.400Z
+2026-10-26T09:38:48.082Z page 170 seen 41845 inWindow 35426 highTs 2026-10-25T23:59:34.501Z
+2026-10-26T09:39:12.175Z page 180 seen 44318 inWindow 35661 highTs 2026-10-26T00:03:47.871Z
+2026-10-26T09:39:23.937Z page 190 seen 46794 inWindow 35661 highTs 2026-10-26T00:07:45.236Z
+2026-10-26T09:39:31.366Z enumeration done 48276 in window 35661
+2026-10-26T09:39:41.542Z rewardInfo 2000 / 35661
+2026-10-26T09:39:50.453Z rewardInfo 4000 / 35661
+2026-10-26T09:39:59.266Z rewardInfo 6000 / 35661
+2026-10-26T09:40:08.380Z rewardInfo 8000 / 35661
+2026-10-26T09:40:17.360Z rewardInfo 10000 / 35661
+2026-10-26T09:40:26.404Z rewardInfo 12000 / 35661
+2026-10-26T09:40:35.399Z rewardInfo 14000 / 35661
+2026-10-26T09:40:44.301Z rewardInfo 16000 / 35661
+2026-10-26T09:40:53.427Z rewardInfo 18000 / 35661
+2026-10-26T09:41:02.103Z rewardInfo 20000 / 35661
+2026-10-26T09:41:11.174Z rewardInfo 22000 / 35661
+2026-10-26T09:41:19.846Z rewardInfo 24000 / 35661
+2026-10-26T09:41:28.701Z rewardInfo 26000 / 35661
+2026-10-26T09:41:37.899Z rewardInfo 28000 / 35661
+2026-10-26T09:41:46.599Z rewardInfo 30000 / 35661
+2026-10-26T09:41:55.222Z rewardInfo 32000 / 35661
+2026-10-26T09:42:04.044Z rewardInfo 34000 / 35661
+2026-10-26T09:42:11.481Z done; rewardInfo failures 0 transient errors 0
+35661 window blocks; 128 sampled -> /home/user/Jnjjjbh/audit/runs/2026-10-25T2300/raw/sample_hashes.txt
+2026-10-26T09:42:36.706Z secondary enumeration {"node":"wss://luna.kaspa.blue/kaspa/mainnet/wrpc/json","serverInfo":{"hasUtxoIndex":true,"isSynced":true,"networkId":"mainnet","rpcApiRevision":0,"rpcApiVersion":1,"serverVersion":"2.1.0","virtualDaaScore":575874794},"pages":196,"reachedUntil":true,"count":48276}
+2026-10-26T09:42:55.648Z sampled 25 / 128
+2026-10-26T09:43:14.163Z sampled 50 / 128
+2026-10-26T09:43:33.513Z sampled 75 / 128
+2026-10-26T09:43:54.281Z sampled 100 / 128
+2026-10-26T09:44:17.264Z sampled 125 / 128
+2026-10-26T09:44:19.581Z sample done, failures 0
+{
+ "colors": {
+  "BLUE": 35586,
+  "RED": 75,
+  "UNKNOWN": 0,
+  "rule": "BLUE/RED only when GetBlockRewardInfo returns it; anything else kept as UNKNOWN"
+ },
+ "errors": {},
+ "payout_cross_check_all_blue_blocks": {
+  "match": 35586
+ },
+ "results": {
+  "blue_blocks": 35586,
+  "HumPool_plus_F2Pool": {
+   "blue": 19978,
+   "share": 0.561400550778396,
+   "wilson95": [
+    0.5562386003815365,
+    0.5665492463993018
+   ],
+   "minute_bootstrap95": [
+    0.554751156914516,
+    0.5677932851297574
+   ],
+   "claim_0539_inside_wilson95": false,
+   "difference_pp": 2.24
+  },
+  "top_addresses_by_blue_blocks": [
+   {
+    "address": "kaspa:qrk9decfnl4rayeegp6gd3tc6605zavclkpud5jp78axat5namppwt050d57j",
+    "blue": 11339,
+    "share": 0.3186365424605182,
+    "label": "HumPool"
+   },
+   {
+    "address": "kaspa:qpamkvhgh0kzx50gwvvp5xs8ktmqutcy3dfs9dc3w7lm9rq0zs76vf959mmrp",
+    "blue": 8639,
+    "share": 0.2427640083178778,
+    "label": "F2Pool"
+   },
+   {
+    "address": "kaspa:qrcz0ha5krc2y3snq6vm6quyqdh7fcs8gkx0f5z5v4ld0s32l4p850cvk8udv",
+    "blue": 4181,
+    "share": 0.11749002416680718,
+    "label": "ViaBTC"
+   },
+   {
+    "address": "kaspa:qrvqn64vxkcevdev6k2y49slxw4ls57cjzdqmqkcgh9wu7xmghk57v4ehla0t",
+    "blue": 2525,
+    "share": 0.07095486989265441,
+    "label": "K1Pool"
+   },
+   {
+    "address": "kaspa:qzyzhlkd8thwywu2ajylmzlz9hxdqw9s5xznf0kzed8s9y4h6mtfj222rtgcn",
+    "blue": 1240,
+    "share": 0.03484516382847187,
+    "label": "WhalePool"
+   }
+  ],
+  "top2_addresses_share": 0.561400550778396,
+  "unknown_addresses": [
+   {
+    "address": "kaspa:qqje6ps46n6pvjstupfxgrg6v3pegd22q84jachnfrnz2vh5vznqw8redgln6",
+    "blocks": 1018,
+    "blue": 1018,
+    "sample_minerInfo": "2.1.0/ZKM16960801db59da639d570638d2188c77c834c0a61c5f60c1da6bb153af67389bd"
+   },
+   {
+    "address": "kaspa:qzv6lyy49ztas78037umkc9acmrertejgesqsnmjxjrd30fem6em5we3gujgy",
+    "blocks": 933,
+    "blue": 931,
+    "sample_minerInfo": "2.1.0/ZKM1d325aace475f5cabbf1a8e7c77df9256a797e399b37800e0be2243e0657004ef"
+   },
+   {
+    "address": "kaspa:qqzffjn32q670kat0huq5j0pcvk95r8j0am62c8fyzd6yr24tefaq758ug3tw",
+    "blocks": 493,
+    "blue": 492,
+    "sample_minerInfo": "2.1.0/ZKM1caba09cacdd80984c0e182912cf7d614418f2c6d638054f77537a7a122a52349"
+   },
+   {
+    "address": "kaspa:qqg7cs2e8vh4k2y9ashwqxvv8z5n7rhx0w3kuu3gcwgmrpmzw8luvuwchhsn4",
+    "blocks": 408,
+    "blue": 407,
+    "sample_minerInfo": "2.0.1/ZKM12c2298e025a41dff2208e145366094d88ac35084bf3543de9a8c2d587f1e49de"
+   }
+  ],
+  "solo_addresses": 100
+ }
+}
+{
+ "blocks_in_window": 35661,
+ "first_timestamp": "2026-10-25T23:00:00.186Z",
+ "last_timestamp": "2026-10-25T23:59:59.713Z",
+ "blocks_per_second": 9.906,
+ "blocks_per_minute_min_max": [
+  517,
+  646
+ ],
+ "minutes_with_blocks": 60,
+ "largest_timestamp_gaps_ms": [
+  {
+   "gap_ms": 1452,
+   "after": "2026-10-25T23:02:37.148Z"
+  },
+  {
+   "gap_ms": 1399,
+   "after": "2026-10-25T23:38:53.188Z"
+  },
+  {
+   "gap_ms": 1194,
+   "after": "2026-10-25T23:42:00.285Z"
+  },
+  {
+   "gap_ms": 1175,
+   "after": "2026-10-25T23:21:28.461Z"
+  },
+  {
+   "gap_ms": 1161,
+   "after": "2026-10-25T23:20:26.371Z"
+  }
+ ],
+ "boundary_counts": {
+  "[start-1s,start)": 9,
+  "[start,start+1s)": 6,
+  "[end-1s,end)": 11,
+  "[end,end+1s)": 7
+ },
+ "window_daaScore_range": [
+  575490330,
+  575525985
+ ],
+ "blocks_outside_window_by_timestamp_but_inside_window_daa_range": 1,
+ "note": "Blocks never merged by the selected chain (outside the past of the sink at query time) are not returned by getBlocks; the secondary-node enumeration is the cross-check."
+}
+{
+ "header_hash_recomputed_ok=True": 128,
+ "nodes_agree_block=True": 128,
+ "nodes_agree_reward_info=True": 128,
+ "rest_payload_matches=True": 128,
+ "merging_coinbase_pays_payload_script=True": 128,
+ "merging_chain_hash_recomputed_ok=True": 128,
+ "csv_row_matches_raw=True": 128
+}
+HumPool 11339 0.318637
+F2Pool 8639 0.242764
+ViaBTC 4181 0.11749
+UNKNOWN 2848 0.080031
+K1Pool 2525 0.070955
+WhalePool 1240 0.034845
+SOLO 1231 0.034592
+Kaspa-pool 909 0.025544
+RabidPool 452 0.012702
+2Miners 411 0.011549
+NiceHash 409 0.011493
+EMCD 401 0.011268
+HeroMiners 272 0.007643
+Kryptex 236 0.006632
+AntPool 211 0.005929
+Binance Pool 200 0.00562
+Kat Pool 44 0.001236
+Ordina Mining 11 0.000309
+WoolyPooly 10 0.000281
+BaikalMine 10 0.000281
+CyberPool 7 0.000197
+HumPool+F2Pool 19978 0.561401
+TOTAL 35586 1.0

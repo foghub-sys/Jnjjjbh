@@ -1,0 +1,103 @@
+{
+  "node": "wss://lena.kaspa.blue/kaspa/mainnet/wrpc/json",
+  "rest": "https://api.kaspa.org",
+  "start": "2026-10-25T10:00:00.000Z",
+  "end": "2026-10-25T11:00:00.000Z",
+  "marginSec": 600,
+  "startedAt": "2026-10-26T09:21:54.259Z",
+  "serverInfo": {
+    "hasUtxoIndex": true,
+    "isSynced": true,
+    "networkId": "mainnet",
+    "rpcApiRevision": 0,
+    "rpcApiVersion": 1,
+    "serverVersion": "2.1.0",
+    "virtualDaaScore": 575862492
+  },
+  "blockDagInfoAtStart": {
+    "blockCount": 1414012,
+    "difficulty": 17784145707468028,
+    "headerCount": 1414012,
+    "network": "mainnet",
+    "pastMedianTime": 1793006369794,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "e3866d3a3bd143fbbd2d027374eb016dd327f222ef40ba64435763a67ce2f9ac",
+    "tipHashes": [
+      "e3866d3a3bd143fbbd2d027374eb016dd327f222ef40ba64435763a67ce2f9ac",
+      "7dd21f99d674570e92cf5dc826b259dab730dfdf963b11cd4a2b4806b3f4fb99",
+      "abd22fb6ba043d98fe8118cbe6d3b19cd007da217ab733615172c62bd761ce12",
+      "4494caffc964f984047ec6a30c325d16f48df30645546bc2e337d49dfaaac95b",
+      "66c7f28758b8ecbce9e68f3e3d262d31e7695728eb7ac55476c68f9385ab304a"
+    ],
+    "virtualDaaScore": 575862494,
+    "virtualParentHashes": [
+      "abd22fb6ba043d98fe8118cbe6d3b19cd007da217ab733615172c62bd761ce12",
+      "7dd21f99d674570e92cf5dc826b259dab730dfdf963b11cd4a2b4806b3f4fb99",
+      "e3866d3a3bd143fbbd2d027374eb016dd327f222ef40ba64435763a67ce2f9ac",
+      "4494caffc964f984047ec6a30c325d16f48df30645546bc2e337d49dfaaac95b",
+      "66c7f28758b8ecbce9e68f3e3d262d31e7695728eb7ac55476c68f9385ab304a"
+    ]
+  },
+  "locate": {
+    "lowHash": "d4b77f68b9a339e7c3fb8a5be071d25762bd3fc602d943ff095caf9d833d05ba",
+    "probes": [
+      {
+        "blueScore": 572972658,
+        "hash": "fd1cf91ed7b50113e0075ab44a9321a6f90663425cccf1501d66e4bd6491684d",
+        "timestamp": 1792922427752
+      },
+      {
+        "blueScore": 572966143,
+        "hash": "d4b77f68b9a339e7c3fb8a5be071d25762bd3fc602d943ff095caf9d833d05ba",
+        "timestamp": 1792921774157
+      }
+    ]
+  },
+  "pages": 196,
+  "dagBlocksSeen": 48218,
+  "duplicatesSkipped": 195,
+  "dagTimestampRange": [
+    "2026-10-25T09:49:29.088Z",
+    "2026-10-25T11:10:05.805Z"
+  ],
+  "inWindowFromGetBlocks": 35914,
+  "rewardInfoFailed": [],
+  "blockDagInfoAtEnd": {
+    "blockCount": 1416199,
+    "difficulty": 17826035931923738,
+    "headerCount": 1416199,
+    "network": "mainnet",
+    "pastMedianTime": 1793006594059,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "7c782948bd47b66594f1ec3c24beb705b93a99351c4e4aa78705e6bc382e082e",
+    "tipHashes": [
+      "f41ff95666ba31f33e2490cfd0f5ddaf9206b5688ef670ce403d490abcb8b29d",
+      "30268389a13d4eb64b980bc79a9c21e4ccaf0f9b2e358def419819c6d37f3457",
+      "7c782948bd47b66594f1ec3c24beb705b93a99351c4e4aa78705e6bc382e082e",
+      "ee514cc2ba5e7fab4baf0f96ccefcceed341225feaf16010c87a7edf0fbd3b19",
+      "110a7e447c10e1174ca2a59144ef72f004566715c585d9968b77796ee83b106d",
+      "8777fed8ed31b598ec2388fab0667859a439c5cb431dcfd98d988c8faf567645",
+      "8b8e792770c9aafc154ac2d5e9283f2c2b60a8775f91abfa9cac162a4c2dc2e6",
+      "ac4ca73cf247e1cc0b1c9b7590421ef76089228a0c2830455c31b65ef4ea7cac",
+      "e359ba11276052e57db3dd4342ff4f0c48029d6340ab4c0e25f052223b9c42b9",
+      "5d0584ec8130e9b974fb0e9478e521ecb722ccc05fe1ae3eefd4fb56b2b8dacc",
+      "7c48e242e3a76ea05854ca0f9c3042dc435f57f881fae858f5edfa60f669c3fa"
+    ],
+    "virtualDaaScore": 575864681,
+    "virtualParentHashes": [
+      "f41ff95666ba31f33e2490cfd0f5ddaf9206b5688ef670ce403d490abcb8b29d",
+      "30268389a13d4eb64b980bc79a9c21e4ccaf0f9b2e358def419819c6d37f3457",
+      "7c48e242e3a76ea05854ca0f9c3042dc435f57f881fae858f5edfa60f669c3fa",
+      "e359ba11276052e57db3dd4342ff4f0c48029d6340ab4c0e25f052223b9c42b9",
+      "7c782948bd47b66594f1ec3c24beb705b93a99351c4e4aa78705e6bc382e082e",
+      "ee514cc2ba5e7fab4baf0f96ccefcceed341225feaf16010c87a7edf0fbd3b19",
+      "110a7e447c10e1174ca2a59144ef72f004566715c585d9968b77796ee83b106d",
+      "ac4ca73cf247e1cc0b1c9b7590421ef76089228a0c2830455c31b65ef4ea7cac",
+      "8777fed8ed31b598ec2388fab0667859a439c5cb431dcfd98d988c8faf567645",
+      "8b8e792770c9aafc154ac2d5e9283f2c2b60a8775f91abfa9cac162a4c2dc2e6",
+      "5d0584ec8130e9b974fb0e9478e521ecb722ccc05fe1ae3eefd4fb56b2b8dacc"
+    ]
+  },
+  "finishedAt": "2026-10-26T09:25:30.274Z",
+  "errors": []
+}

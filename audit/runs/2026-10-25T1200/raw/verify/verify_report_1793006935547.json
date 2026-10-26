@@ -1,0 +1,25 @@
+{
+  "nodes": [
+    "wss://kate.kaspa.red/kaspa/mainnet/wrpc/json",
+    "wss://emma.kaspa.stream/kaspa/mainnet/wrpc/json"
+  ],
+  "startedAt": "2026-10-26T09:27:14.012Z",
+  "enum": {
+    "node": "wss://emma.kaspa.stream/kaspa/mainnet/wrpc/json",
+    "serverInfo": {
+      "hasUtxoIndex": true,
+      "isSynced": true,
+      "networkId": "mainnet",
+      "rpcApiRevision": 0,
+      "rpcApiVersion": 1,
+      "serverVersion": "2.1.0",
+      "virtualDaaScore": 575865749
+    },
+    "pages": 196,
+    "reachedUntil": true,
+    "count": 48200
+  },
+  "sampleFailures": [],
+  "sampleCount": 128,
+  "finishedAt": "2026-10-26T09:28:55.547Z"
+}
