@@ -1,0 +1,99 @@
+{
+  "node": "wss://vivi.kaspa.blue/kaspa/mainnet/wrpc/json",
+  "rest": "https://api.kaspa.org",
+  "start": "2026-10-26T07:00:00.000Z",
+  "end": "2026-10-26T08:00:00.000Z",
+  "marginSec": 600,
+  "startedAt": "2026-10-26T09:06:17.284Z",
+  "serverInfo": {
+    "hasUtxoIndex": true,
+    "isSynced": true,
+    "networkId": "mainnet",
+    "rpcApiRevision": 0,
+    "rpcApiVersion": 1,
+    "serverVersion": "2.1.0",
+    "virtualDaaScore": 575853096
+  },
+  "blockDagInfoAtStart": {
+    "blockCount": 1404615,
+    "difficulty": 17767685349267244,
+    "headerCount": 1404615,
+    "network": "mainnet",
+    "pastMedianTime": 1793005436237,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "5984a48202f9b2232dce215f2228e1187c1a3155b2dfaa6d8f3f7258a4079bb7",
+    "tipHashes": [
+      "1be3ef9d644fe37c92cbdf0cd4768452b8423225977c4f5cc9e5cbdb3f89c88a",
+      "5984a48202f9b2232dce215f2228e1187c1a3155b2dfaa6d8f3f7258a4079bb7",
+      "7afd6b6697428c4d9ddbe62a3b6ad6bfe9c54c5943902a7aad9533be396f793c",
+      "37865641f14a9cc0fa7b883528a8a618519204b40e9bad00b3949da107d469e6",
+      "abd13a0c13162edf74b84c2cf39abf744cec63e54acd91ef3e657bbaecbb5bbe"
+    ],
+    "virtualDaaScore": 575853097,
+    "virtualParentHashes": [
+      "1be3ef9d644fe37c92cbdf0cd4768452b8423225977c4f5cc9e5cbdb3f89c88a",
+      "37865641f14a9cc0fa7b883528a8a618519204b40e9bad00b3949da107d469e6",
+      "7afd6b6697428c4d9ddbe62a3b6ad6bfe9c54c5943902a7aad9533be396f793c",
+      "abd13a0c13162edf74b84c2cf39abf744cec63e54acd91ef3e657bbaecbb5bbe",
+      "5984a48202f9b2232dce215f2228e1187c1a3155b2dfaa6d8f3f7258a4079bb7"
+    ]
+  },
+  "locate": {
+    "lowHash": "ef59b3f0dc01a4e2badb070ef4aa7b4b02126765b46e6ad48c6f51fa777d9f1f",
+    "probes": [
+      {
+        "blueScore": 573720979,
+        "hash": "ef59b3f0dc01a4e2badb070ef4aa7b4b02126765b46e6ad48c6f51fa777d9f1f",
+        "timestamp": 1792997396977
+      }
+    ]
+  },
+  "pages": 194,
+  "dagBlocksSeen": 47726,
+  "duplicatesSkipped": 193,
+  "dagTimestampRange": [
+    "2026-10-26T06:49:54.582Z",
+    "2026-10-26T08:10:21.600Z"
+  ],
+  "inWindowFromGetBlocks": 35624,
+  "rewardInfoFailed": [],
+  "blockDagInfoAtEnd": {
+    "blockCount": 1406297,
+    "difficulty": 17785217356262928,
+    "headerCount": 1406297,
+    "network": "mainnet",
+    "pastMedianTime": 1793005606436,
+    "pruningPointHash": "dcfb22ac989d9fbc43d604e3ff21a0bdda39e42eed8b9be3fb2429851af234ab",
+    "sink": "6a44d87d68b222bcfd69aedf085a3e346b850757f8660e828e5f0a585d7580be",
+    "tipHashes": [
+      "cf5d626c4c29773023df1976382b47b20804e7cfaea1c030013c7c9578302f45",
+      "2c9221c328ae8616e4115e0a2a7e2e94d7c3233c00304f7bc886fabd51b43fc2",
+      "66bcc9df02d3e4481c82c437fc4af12e0338a1a219d891d349b71dea072f03a7",
+      "292a74a50e632e3c211ec34c0f2503a8b2ac3a9193c09b754ad8e4d5a9220dd3",
+      "6a44d87d68b222bcfd69aedf085a3e346b850757f8660e828e5f0a585d7580be",
+      "0af2ca7c391252ffc449a2fe83da6198f07217c94d6619cb91d33922b25b9c28",
+      "832d02a80a4556e0ce85a1fac00e7cf2a73e967563c6bb67653797c20df18ede",
+      "30020e56116adc4bab13307a2e3fdf2b00ae04a1f0fc55d6a523fd2c68f73a66",
+      "8e5f9384132452c79ca1b7a608d0f6f95dc2c4dd842aa8cc67a591a1b0e81cfc",
+      "91467052b5f447936137434d146fd5f1320fe279858edc562cf0973a0552c51c",
+      "e80d1493d343a77b8e38f1295f02db8efeaf86e930f3c92db1a8b450e73e93ef",
+      "46d89a40a720d03275c0a6720bb40bf960c5b2fe18b27e81bcf83a3449bd7eaa"
+    ],
+    "virtualDaaScore": 575854779,
+    "virtualParentHashes": [
+      "0af2ca7c391252ffc449a2fe83da6198f07217c94d6619cb91d33922b25b9c28",
+      "cf5d626c4c29773023df1976382b47b20804e7cfaea1c030013c7c9578302f45",
+      "e80d1493d343a77b8e38f1295f02db8efeaf86e930f3c92db1a8b450e73e93ef",
+      "30020e56116adc4bab13307a2e3fdf2b00ae04a1f0fc55d6a523fd2c68f73a66",
+      "832d02a80a4556e0ce85a1fac00e7cf2a73e967563c6bb67653797c20df18ede",
+      "8e5f9384132452c79ca1b7a608d0f6f95dc2c4dd842aa8cc67a591a1b0e81cfc",
+      "2c9221c328ae8616e4115e0a2a7e2e94d7c3233c00304f7bc886fabd51b43fc2",
+      "66bcc9df02d3e4481c82c437fc4af12e0338a1a219d891d349b71dea072f03a7",
+      "46d89a40a720d03275c0a6720bb40bf960c5b2fe18b27e81bcf83a3449bd7eaa",
+      "91467052b5f447936137434d146fd5f1320fe279858edc562cf0973a0552c51c",
+      "6a44d87d68b222bcfd69aedf085a3e346b850757f8660e828e5f0a585d7580be"
+    ]
+  },
+  "finishedAt": "2026-10-26T09:09:05.617Z",
+  "errors": []
+}

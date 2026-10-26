@@ -78,6 +78,20 @@ def tag_pool(miner_info):
     return None
 
 
+def own_red_reward(block, merging):
+    """A chain block (selected parent of its merging block) also receives the reward of the red blocks it merged,
+    as one extra last output of its own coinbase; GetBlockRewardInfo adds it (rpc/service get_block_reward_info_call)."""
+    if merging["verboseData"]["selectedParentHash"] != block["header"]["hash"]:
+        return 0
+    outs = block["coinbase"]["outputs"]
+    return outs[-1]["value"] if len(outs) == len(block["verboseData"]["mergeSetBluesHashes"]) + 1 else 0
+
+
+def load_json_any(path):
+    with (gzip.open(path, "rt") if path.endswith(".gz") else open(path)) as f:
+        return json.load(f)
+
+
 def load_jsonl_gz(path):
     with gzip.open(path, "rt") as f:
         return [json.loads(line) for line in f]
@@ -174,7 +188,7 @@ def main():
             continue
         out = m["coinbase"]["outputs"][blues.index(row["hash"])]
         ok_script = out["scriptPublicKey"][4:] == row["minerScript"]
-        ok_value = out["value"] == row["rewardAmount"]
+        ok_value = out["value"] + own_red_reward(dag[row["hash"]], m) == row["rewardAmount"]
         key = "match" if ok_script and ok_value else f"mismatch_script={not ok_script}_value={not ok_value}"
         mcheck[key] += 1
         row["payoutCrossCheck"] = "OK" if key == "match" else "FAIL"
@@ -304,9 +318,9 @@ def main():
     page_chain_ok = all(p["lowHash"] == prev["highHash"] for prev, p in zip(pages, pages[1:]))
 
     sec = {}
-    enum_path = os.path.join(args.verify, "enum_secondary.json")
-    if os.path.exists(enum_path):
-        e = json.load(open(enum_path))
+    enum_path = next((p for p in (os.path.join(args.verify, "enum_secondary.json"), os.path.join(args.verify, "enum_secondary.json.gz")) if os.path.exists(p)), None)
+    if enum_path:
+        e = load_json_any(enum_path)
         sec_set = set(e["hashes"])
         prim_set = set(dag)
         sec = {
@@ -320,8 +334,8 @@ def main():
     # ---- sample verification from verbatim raw responses ----
     sample_res = collections.Counter()
     sample_details = []
-    for path in sorted(glob.glob(os.path.join(args.verify, "raw_samples", "*.json"))):
-        rec = json.load(open(path))
+    for path in sorted(glob.glob(os.path.join(args.verify, "raw_samples", "*.json*"))):
+        rec = load_json_any(path)
         h = rec["hash"]
         res = {"hash": h}
         blocks = [(x["node"], json.loads(x["raw"])["params"]["block"]) for x in rec["responses"] if x["method"] == "getBlock" and x.get("role") != "mergingChainBlock"]
@@ -339,7 +353,9 @@ def main():
             idx = mb["verboseData"]["mergeSetBluesHashes"].index(h)
             out = mb["transactions"][0]["outputs"][idx]
             pay = parse_coinbase_payload(blocks[0][1]["transactions"][0]["payload"])
-            res["merging_coinbase_pays_payload_script"] = out["scriptPublicKey"][4:] == pay["script"].hex() and out["value"] == infos[0][1]["rewardAmount"]
+            own = {"verboseData": blocks[0][1]["verboseData"], "coinbase": blocks[0][1]["transactions"][0], "header": blocks[0][1]["header"]}
+            expected = out["value"] + own_red_reward(own, {"verboseData": mb["verboseData"]})
+            res["merging_coinbase_pays_payload_script"] = out["scriptPublicKey"][4:] == pay["script"].hex() and expected == infos[0][1]["rewardAmount"]
             res["merging_chain_hash_recomputed_ok"] = header_hash(mb["header"]) == mb["header"]["hash"]
         pr = next((r for r in rows if r["hash"] == h), None)
         if pr and blocks:
