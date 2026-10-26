@@ -49,7 +49,31 @@ The claimed address `kaspa:qrk9de…t050d57j` **matches**: it is the miner addre
 - SOLO is a heuristic: untagged, unlabelled addresses with under 1% of the hour's blocks.
 - Blocks never merged by the selected chain are not returned by `getBlocks`. Such blocks earn no reward and do not change BLUE shares.
 - All nodes are part of one public resolver network. Recomputing the block hash and the consensus payout cross-check reduce, but do not remove, trust in them.
-- Public nodes keep about 40 hours of history, so a 7-day analysis needs an archival node or an indexer. Full DAG dumps (`raw/dag_blocks.jsonl.gz`) are committed only for the hours 2026-10-25 00:00, 08:00, 16:00 and 2026-10-26 07:00. The other hours keep the extracted per-block data, every colour/reward response and the raw samples.
+- Public nodes keep about 40 hours of history, so a 7-day analysis needs an archival node or an indexer. Because these blocks will drop out of the public nodes' history, every hour's raw node data is committed (see Reproduce below).
 - An initial run failed for two hours because the REST indexer returned HTTP 429 while locating the start block. Those hours were re-run successfully; no block data was affected.
 
-Reproduce: `audit/tools/batch.sh 2026-10-25T08:00:00Z 24`, then `python3 -I audit/tools/aggregate.py audit/summary_24h audit/runs/<24 hours>`. This works only while the hours are still within the nodes' pruning window.
+## Reproduce
+
+The 56.73% is reproducible offline from the committed raw node responses, with no network access:
+
+```
+audit/tools/reproduce.sh /tmp/repro      # about 3 minutes; needs python3 only
+```
+
+The script re-runs `analyze.py` on every hour's `runs/<hour>/raw/` and then `aggregate.py` on the 24 rebuilt hours. A check run of this script gave byte-identical `blocks.csv` and `pool_shares.csv` for all 24 hours, identical per-hour `audit.json`, and an identical 24-hour `pool_shares.csv` and `hourly.csv`. The summary `audit.json` differs only in the input paths it records.
+
+Raw data per hour, in `runs/<hour>/raw/`:
+
+| file | content |
+|---|---|
+| `dag_blocks.jsonl.gz` | every block returned by `getBlocks` for the hour ±10 min: header without `parentsByLevel` (level-0 parents kept), verboseData, and the full coinbase transaction |
+| `reward_info.jsonl.gz` | `GetBlockRewardInfo` result for every window block, with the sha256 of each verbatim response |
+| `pages.jsonl` | every `getBlocks` page: lowHash, highHash, count, and the byte size and sha256 of the verbatim response |
+| `collect_meta.json` | node, server version, DAG info at start and end, start-block lookup, retries and failures |
+| `verify/enum_secondary.json.gz` | the block-hash set re-enumerated on the second node |
+| `verify/raw_samples/*.json.gz` | verbatim `getBlock` and `GetBlockRewardInfo` responses from both nodes, the merging chain block, and the REST indexer record, for 128 sampled blocks |
+| `sample_hashes.txt`, `address_names.json` | the reproducible sample and the explorer label list used |
+
+In `dag_blocks.jsonl.gz` the header `nonce` went through JavaScript number parsing and can be imprecise. It is not used by the analysis. Exact headers, including the nonce, are in the verbatim raw samples, where the block hash is recomputed.
+
+To re-collect from the network instead: `audit/tools/batch.sh 2026-10-25T08:00:00Z 24` (needs Node.js and `ws@8.18.0`). This works only while those hours are still within the public nodes' pruning window, about 40 hours.
